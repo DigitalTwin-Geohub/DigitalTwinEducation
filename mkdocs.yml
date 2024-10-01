@@ -1,15 +1,18 @@
 site_name: Digital Twin Education
 repo_url: https://github.com/DigitalTwin-Geohub/DigitalTwinEducation
-repo_name: DigitalTwinEducation
+repo_name: Digital Twin Education - University of Twente
 
 nav:
   - Home: "index.md"
-  - Installation: "installation.md"
+  - Preparation for Course: "Preparation.md"
   - Modules:
       - Module I: "Modules/Module I"
       - Module II: "Modules/Module II"
       - Module III: "Modules/Module III"
       - Module IV: "Modules/Module IV"
+      - Module V: "Modules/Module V"
+  - Assignments: 
+      - Assingment 1: 
   - About:
       - "License": "license.md"
       - "Citing": "citing.md"
@@ -20,7 +23,7 @@ theme:
   name: material
   logo: images/logo.png
   favicon: images/favicon.ico
-  language: nl
+  language: en
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
