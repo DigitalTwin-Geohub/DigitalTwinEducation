@@ -1,0 +1,73 @@
+site_name: Digital Twin Education
+repo_url: https://github.com/DigitalTwin-Geohub/DigitalTwinEducation
+repo_name: DigitalTwinEducation
+
+nav:
+  - Home: "index.md"
+  - Installation: "installation.md"
+  - Modules:
+      - Module I: "Modules/Module I"
+      - Module II: "Modules/Module II"
+      - Module III: "Modules/Module III"
+      - Module IV: "Modules/Module IV"
+  - About:
+      - "License": "license.md"
+      - "Citing": "citing.md"
+
+
+
+theme:
+  name: material
+  logo: images/logo.png
+  favicon: images/favicon.ico
+  language: nl
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.instant
+    - navigation.expand
+    - navigation.path
+    - navigation.footer
+    - navigation.tracking
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search:
+  - blog:
+      blog_dir: articles
+      categories_url_format: "{slug}"
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
