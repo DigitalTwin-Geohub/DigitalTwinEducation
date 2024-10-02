@@ -3,19 +3,19 @@ repo_url: https://github.com/DigitalTwin-Geohub/DigitalTwinEducation
 repo_name: Digital Twin Education - University of Twente
 
 nav:
-  - Home: "index.md"
-  - Preparation for Course: "Preparation.md"
+  - Home: index.md
+  - Preparation for Course: Preparation.md
   - Modules:
-      - Module I: "Modules/Module I"
-      - Module II: "Modules/Module II"
-      - Module III: "Modules/Module III"
-      - Module IV: "Modules/Module IV"
-      - Module V: "Modules/Module V"
+    - Module I: Modules/Module I.md
+    - Module II: Modules/Module II.md
+    - Module III: Modules/Module III.md
+    - Module IV: Modules/Module IV.md
+    - Module V: Modules/Module V.md
   - Assignments: 
-      - Assingment 1: 
+    - Assingment 1: Assignment/Assignment I.md
   - About:
-      - "License": "license.md"
-      - "Citing": "citing.md"
+    - License: license.md
+    - Citing: citing.md
 
 
 
@@ -35,7 +35,7 @@ theme:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: black
-      accent: indigo
+      accent: indigowhere py
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
