@@ -117,4 +117,4 @@ Final grade: 70% of the total.
 
 ### References  
 
-* Biljecki, F., Ledoux, H., & Stoter, J. (2016). An improved LOD specification for 3D building models. Computers, Environment, and Urban Systems, 59, 25-37.
+* [Biljecki, F., Ledoux, H., & Stoter, J. (2016). An improved LOD specification for 3D building models. Computers, Environment, and Urban Systems, 59, 25-37.](https://doi.org/10.1016/j.compenvurbsys.2016.04.005)
