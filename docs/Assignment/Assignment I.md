@@ -97,29 +97,29 @@ Go to File -> Export -> Wavefront (.obj) and press the “Export OBJ” button.
 
 ---
 
-# Making a 2D building plot in QGIS and exporting it to Blender
+## Making a 2D building plot in QGIS and exporting it to Blender
 
-## Overview 
-###	Learning aim
+### Overview 
+####	Learning aim
 To create a 2D feature in QGIS and use it in Blender
-###	Learning objectives
+####	Learning objectives
 -	Create a feature in QGIS
 -	Export a feature in QGIS to a shapefile
 -	Import shapefiles in Blender
 -	Add a reference image in Blender
-###	Type
+####	Type
 Exercise
-###	Expected time investment
+####	Expected time investment
 2 hours
-###	Required material & Data
+####	Required material & Data
 -	QGIS
 -	Blender
 -	A mouse
-###	Deliverables/products
+####	Deliverables/products
 
-###	Assessment and feedback
+####	Assessment and feedback
 
-###	Exercise content
+####	Exercise content
 -	Installing QGIS and creating a new project
 -	Creating a feature on a map in QGIS and exporting it
 -	Installing and getting to know Blender
@@ -127,7 +127,7 @@ Exercise
 
 In this exercise, it is expected of you to save the files and keep them organised yourself.
 
-## Creating a new QGIS project
+### Creating a new QGIS project
 
 1. Start QGIS.
 2. Press `Ctrl+N` to create a new project or click the corresponding button in QGIS. Your window should look as shown below:
@@ -157,7 +157,7 @@ In this exercise, it is expected of you to save the files and keep them organise
 
 ---
 
-## Creating a Feature on a Map in QGIS and Exporting It
+### Creating a Feature on a Map in QGIS and Exporting It
 
 In this chapter we will determine the location of a new building on the campus and a basic layout will also be created. You do not have to make this exact layout, instead, be creative and try to create something on your own.
 
@@ -210,11 +210,11 @@ In this chapter we will determine the location of a new building on the campus a
 ## Blender GIS
 
 
-5. To import shapefiles in Blender, an additional add-on is required. Download the BlenderGIS addon from [https://github.com/domlysz/BlenderGIS/releases/tag/228](https://github.com/domlysz/BlenderGIS/releases/tag/228).
+1. To import shapefiles in Blender, an additional add-on is required. Download the BlenderGIS addon from [https://github.com/domlysz/BlenderGIS/releases/tag/228](https://github.com/domlysz/BlenderGIS/releases/tag/228).
 
     ![alt text](./Images/Qgis-13.png)
 
-6. In Blender, go to `Edit -> Preferences…`, select `Add-ons`, click `Install`, and select the downloaded zip file.
+2. In Blender, go to `Edit -> Preferences…`, select `Add-ons`, click `Install`, and select the downloaded zip file.
 
     ![alt text](./Images/Qgis-14.png)
 
@@ -230,7 +230,7 @@ In this chapter we will determine the location of a new building on the campus a
 
 ---
 
-## Importing and Adjusting a Shapefile in Blender
+### Importing and Adjusting a Shapefile in Blender
 
 1. Use `GIS -> Import -> Shapefile (.shp)` to import the building plot shapefile. Navigate to where you saved the shapefile of the building plot and press the “Import SHP” but-ton. On the popup screen, just click OK.
 2. Select the water object and Enter edit mode with `Tab` and select vertex mode. in the toolbar select the vertex select mode. This allows you too see the individual vertexes and edit them. 3D models exist out of three things, vertexes, edges and faces. Vertexes are points, edges connect vertexes and faces connect edges. All three can be selected here.  Edit vertexes as needed.
@@ -273,9 +273,9 @@ In this chapter we will determine the location of a new building on the campus a
 
 13. Save the Blender file.
 
-# Creating a 3D road network from OSM data
+## Creating a 3D road network from OSM data
 
-## Setting up QGIS
+### Setting up QGIS
 
 1. Open the previous QGIS File, or create a new one, where the ellipsoid is Bessel 1841 and the coordinate system is RD New (EPSG:28992).
 
@@ -291,7 +291,7 @@ In this chapter we will determine the location of a new building on the campus a
 
     ![alt text](./Images/OSM-3.png)
  
-## Importing OSM data into QGIS
+### Importing OSM data into QGIS
 1.	First, you want to set a boundary of the OSM data you need. So, create a new shapefile layer, give it a name, set the geometry type to Polygon, and set the coordinate system to RD New, finally press OK to create the layer.
 
     ![alt text](./Images/OSM-4.png)
@@ -315,7 +315,7 @@ In this chapter we will determine the location of a new building on the campus a
 6.	When this is done, 4 layers should be added to your program. Two of them can already be deleted since we won’t use them. So, delete the Layer made of points and the line layer which only holds the major roads, which is the one with the least number of features, which you can find in the attribute table of the layer (right click the layer). Select these two and delete them right clicking and pressing Remove Layer…
 7.	I recommend giving the two remaining layers correct names, the line layer represents the road network, and the polygon layer gives the land use. You can rename layers by selecting them and pressing the `F2` button. Or right click them and select Rename Layer.
 
-##	Filtering the OSM data and exporting the road network to shapefiles
+###	Filtering the OSM data and exporting the road network to shapefiles
 Now that the basic OSM data is collected, we will filter and adjust it in a way so we will only have the road network left.
 
 1.	Open the attribute table of the land use layer by right clicking the layer and pressing `Open Attribute Table`. These layers store all the land uses and since parking spots are also part of the road network, we want to have these polygons as well. The rest will need to be deleted.
@@ -366,9 +366,8 @@ Now that the basic OSM data is collected, we will filter and adjust it in a way 
  
 20.	You can save the layers as shapefiles in two ways: 1. make the layers permanent, that will save the shapefile to the location of your project. 2. you export it and save it elsewhere. I do recom-mend collecting all the shapefiles and put them in a folder. Do not forget the Parking layer. Also, not just the .shp files are required, so do not delete, or move the other files.
 
-    
 
-##	Importing and adjusting a shapefile in Blender
+###	Importing and adjusting a shapefile in Blender
 
 1.	Import the shapefiles using `GIS -> Import -> Shapefile (.shp)`. Navigate to where you saved the shapefiles of the road network, select one and press the `Import SHP` button. On the popup screen, just click OK. Do this for all shapefiles.
 2.	All the layers should perfectly line up with each other if you have used the same export setting for each shapefile. Select all objects using `A` and press `tab` to enter edit mode. Again, make sure that everything is selected by using A.
