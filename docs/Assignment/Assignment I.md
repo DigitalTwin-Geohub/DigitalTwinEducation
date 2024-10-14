@@ -1,6 +1,6 @@
 # GATHERING, VISUALIZING AND USING EXISTING DATA FROM AHN AND 3DBAG (THE NETHERLANDS)
 
-
+## Overview 
 ### Learning aim
 To use existing data as a basis for 3d modeling.
 ### Learning objectives
@@ -36,8 +36,8 @@ During the work on this tutorial, you are expected to keep your files organised 
 
 ____
 ____
-
-## 1. Gathering data from AHN
+## Task
+### 1. Gathering data from AHN
 The AHN provides height information for the entire Netherlands, these height information can be used as a base landscape for further 3d modelling work or combined with the geometric vector model of building for 3D city model generation. AHN data is acquired via LiDAR aerial survey. 
 1.	Go to https://ahn.arcgisonline.nl/ahnviewer/ and to enable downloads, go to “List of Layers” or “lijst met lagen” and enable “AHN1, 2 en 3 – Downloads per kaartblad”
  
@@ -52,7 +52,7 @@ The data type for this file is GeoTiff and each pixel is 0.5m. Since the resolut
 
 [comment]: # (@milankoeva I do not understand the need for Twinmotion for clipping the raster, can't it be done just with QGIS?)
 
-## 2. Gathering data from 3DBAG
+### 2. Gathering data from 3DBAG
 The terrain of the university campus is now complete, in this chapter the data of the existing buildings will be gathered.
 1.	Go to https://3dbag.nl/en/download and click the button “Pick a tile”
 
@@ -64,7 +64,7 @@ The terrain of the university campus is now complete, in this chapter the data o
 
 4.	Now you should have 3 zip files, one for each of the tiles. Extract each of them and you will that for each tile you have 3 .obj models, each with a different LOD setting. Each of these models have a corresponding .mtl file which stores the material settings for the .obj model. Depending on the scale of the project and the graphical power of your computer, you can use any of the LOD’s, the remainder of this tutorial uses LOD2.2. For more information about the different LOD’s, visit: https://docs.3dbag.nl/en/schema/concepts/ 
  
-## 3. Combining wavefront OBJ data in Blender
+### 3. Combining wavefront OBJ data in Blender
 1.	Import the OBJ data using File -> Import -> Wavefront (.obj)
  
     ![Import object on Blender](./Images/Assignment%201-4.png)
