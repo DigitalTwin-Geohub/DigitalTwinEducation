@@ -2,6 +2,8 @@
 
 ## Syllabus and Presentation
 
+
+
 ## Introduce yourself
 
 Go to [Canvas](https://canvas.vu.nl/courses/80299/assignments/361274?module_item_id=1378596) and submit a short video presenting yourself and giving a small reflexion of what you expect to learn during this course.

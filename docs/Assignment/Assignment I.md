@@ -1,4 +1,5 @@
-# GATHERING, VISUALIZING AND USING EXISTING DATA FROM AHN AND 3DBAG (THE NETHERLANDS)
+# Gathering, visualizing and using existing data from AHN and 3DBAG (The Netherlands)
+
 
 ## Overview 
 ### Learning aim
