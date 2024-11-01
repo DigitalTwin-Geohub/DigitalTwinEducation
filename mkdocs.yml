@@ -26,8 +26,8 @@ nav:
 
 theme:
   name: material
-  logo: images/6Logo Simplified500px.png
-  favicon: images/6Logo Simplified100px.png
+  logo: "images/6Logo Simplified500px.png"
+  favicon: "images/6Logo Simplified100px.png"
   language: en
   palette:
     - media: "(prefers-color-scheme: light)"
