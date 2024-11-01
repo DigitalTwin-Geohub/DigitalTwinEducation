@@ -32,8 +32,8 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: Orange 600
-      accent: Red 400
+      primary: Orange
+      accent: Red
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -43,7 +43,7 @@ theme:
       accent: indigowhere py
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: Switch to dark mode
   features:
     - navigation.indexes
     - navigation.sections
