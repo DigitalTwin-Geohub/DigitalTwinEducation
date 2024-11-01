@@ -1,4 +1,4 @@
-# Week 2: Intro and Presentation of Assignment 
+# Week 2 and 3: Introduction to Digital Twins
 
 ## Mandatory Readings 
 
@@ -14,15 +14,19 @@
 
 For this week the assignment is a [Tutorial Intro to Blender](../Assignment/Intro%20to%20blender.md), Downloading 3D data, Visualizing existing data and from QGIS to Blender excercise. [Assignment 1](../Assignment/Assignment%20I.md).
 
-### Preparation for Final Assignment
+## Preparation for Final Assignment
 
 #### DECISION - Write one to two pages
 
 * 	Think of a possible study case of your own.
-* 	Find examples (show link and small analysis – What is positive? What would you have done differently?)
 * 	What is your DT goal? What questions can your Digital Twin answer.
 * 	Who is your audience target and stakeholders?
-* 	User Requirements? – what are your expected outcomes? 
+    * Who are they?
+    * What can make your stakeholder happy?
+    * What are their demands for a Digital Twin?
+    * What is their level of Geoinformation literacy?
+    * What is their domain knowledge on the Digital Twin theme?
+* 	Summarize the User Requirements? – what are your expected outcomes? 
 * 	How to measure your outcomes? – Think of SMART indicators
 
 

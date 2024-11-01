@@ -1,4 +1,4 @@
-# Orientation
+# Orientation and Final Assignment presentation
 
 ## Syllabus and Presentation
 
@@ -11,5 +11,16 @@ Go to [Canvas](https://canvas.vu.nl/courses/80299/assignments/361274?module_item
 ## LIVE KICK-OFF 
 
 Join the [MS-Teams live kick-off meeting](https://teams.microsoft.com/l/meetup-join/19%3aLOGW63CI3_SKFd3BGZKHTMp3iGFXa64dHUsDIbpC0pg1%40thread.tacv2/1726814576878?context=%7b%22Tid%22%3a%22723246a1-c3f5-43c5-acdc-43adb404ac4d%22%2c%22Oid%22%3a%2280d1a586-55cf-4761-85f7-eb620a0bfbe5%22%7d) on **15th November, 1pm - CEST**
+
+
+## Preparation for Final Assignment
+
+#### RESEARCH - Write one to two pages
+
+* 	Find 2 examples of existant Digital Twins (show link for access)
+* 	What is the DT goals? What questions can these Digital Twin answer.
+*   What is positive? What would you have done differently?
+* 	Who is the audience target and stakeholders?
+* 	How are outcomes measured?
 
 ### Further Readings

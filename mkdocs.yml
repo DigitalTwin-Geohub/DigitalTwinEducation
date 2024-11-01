@@ -10,13 +10,13 @@ nav:
     - Module II: Modules/Module II.md
     - Module III: Modules/Module III.md
     - Module IV: Modules/Module IV.md
-    - Module V: Modules/Module V.md
+    # - Module V: Modules/Module V.md
   - Assignments: 
     
     - Assingment 1: Assignment/Assignment I.md
-    - Assingment 2: Assignment/Assignment II.md
-    - Assingment 3: Assignment/Assignment III.md
-    - Assingment 4: Assignment/Assignment IV.md
+    # - Assingment 2: Assignment/Assignment II.md
+    # - Assingment 3: Assignment/Assignment III.md
+    # - Assingment 4: Assignment/Assignment IV.md
     - Final Assignment: Assignment/FINAL Assignment.md
   - About:
     - License: license.md
@@ -26,20 +26,20 @@ nav:
 
 theme:
   name: material
-  logo: images/logo.png
-  favicon: images/favicon.ico
+  logo: images\6Logo Simplified500px.png
+  favicon: images\6Logo Simplified100px.png
   language: en
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: amber
-      accent: black
+      primary: Orange 600
+      accent: Red 400
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: black
+      primary: grey 900
       accent: indigowhere py
       toggle:
         icon: material/brightness-4
