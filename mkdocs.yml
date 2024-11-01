@@ -32,14 +32,14 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: Orange
-      accent: Red
+      primary: orange
+      accent: red
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: grey 900
+      primary: grey
       accent: indigowhere py
       toggle:
         icon: material/brightness-4
