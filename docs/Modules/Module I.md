@@ -23,4 +23,4 @@ Join the [MS-Teams live kick-off meeting](https://teams.microsoft.com/l/meetup-j
 * 	Who is the audience target and stakeholders?
 * 	How are outcomes measured?
 
-### Further Readings
+## Further Readings

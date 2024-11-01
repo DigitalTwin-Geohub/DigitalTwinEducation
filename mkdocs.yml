@@ -26,8 +26,8 @@ nav:
 
 theme:
   name: material
-  logo: images\6Logo Simplified500px.png
-  favicon: images\6Logo Simplified100px.png
+  logo: images/6Logo Simplified500px.png
+  favicon: images/6Logo Simplified100px.png
   language: en
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -43,7 +43,7 @@ theme:
       accent: indigowhere py
       toggle:
         icon: material/brightness-4
-        name: Switch to dark mode
+        name: Switch to light mode
   features:
     - navigation.indexes
     - navigation.sections

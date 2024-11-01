@@ -25,7 +25,7 @@ For this week your assignment is to transform a point cloud into a 3D object [As
 *	Download supplementary data (what type of data, show source and describe data)
 
 
-### Suplementary Material
+## Suplementary Material
 
 Check the tutorials of our friend and colleague Dr. [Florent Poux](https://www.linkedin.com/in/florent-poux-point-cloud/) on 3D data processing:
 

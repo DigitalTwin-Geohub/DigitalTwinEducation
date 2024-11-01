@@ -31,7 +31,7 @@ For this week the assignment is a [Tutorial Intro to Blender](../Assignment/Intr
 
 
 
-### Suplementary Material
+## Suplementary Material
 
 * [Create a Donut in Blender](https://www.youtube.com/playlist?list=PLjEaoINr3zgEPv5y--4MKpciLaoQYZB1Z) by Andrew Price
 * [Jeddoub, I., Nys, G.-A., Hajji, R., & Billen, R. (2023). _Digital Twins for cities: Analyzing the gap between concepts and current implementations with a specific focus on data integration_. International Journal of Applied Earth Observation and Geoinformation, 122, 103440](https://doi.org/10.1016/j.jag.2023.103440)
