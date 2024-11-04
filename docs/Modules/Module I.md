@@ -2,7 +2,7 @@
 
 ## Syllabus and Presentation
 
-
+[](https://canvas.vu.nl/courses/80299)
 
 ## Introduce yourself
 
@@ -15,7 +15,9 @@ Join the [MS-Teams live kick-off meeting](https://teams.microsoft.com/l/meetup-j
 
 ## Preparation for Final Assignment
 
-#### RESEARCH - Write one to two pages
+#### RESEARCH - Write one to two pages 
+
+**Deadline**: 
 
 * 	Find 2 examples of existant Digital Twins (show link for access)
 * 	What is the DT goals? What questions can these Digital Twin answer.
@@ -23,4 +25,4 @@ Join the [MS-Teams live kick-off meeting](https://teams.microsoft.com/l/meetup-j
 * 	Who is the audience target and stakeholders?
 * 	How are outcomes measured?
 
-## Further Readings
+## Further Readings - Optional

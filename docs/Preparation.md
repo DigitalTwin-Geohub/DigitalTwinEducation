@@ -31,5 +31,5 @@ Please download these tools before starting our course:
 
 For this course, you are going to create a small Digital Twin with at least LOD1 and surrounding environment for a concrete AIO.
 
-[**Read the full assigment here**](/docs/Assignment/FINAL%20Assigment.md)
+[**Read the full assigment here**](./Assignment/FINAL%20Assignment.md)
 

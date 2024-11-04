@@ -27,6 +27,6 @@ For this week your assignment ..... [Assignment 3](../Assignment/Assignment%20II
 * Create a Flowchart explaining the relationships of the previous items, identify which are inputs and outputs.  Remember using the outputs from preparation Task 3.
 * Review if you require more data for completing your model.
 
-## Suplementary Material
+## Suplementary Material - Optional
 
  

@@ -23,4 +23,4 @@ For this week your assignment is to create your own geoprocess and dashboard [As
 *	Build your own model workflow (if necessary integrate your python script)
 *	Create a UI mock-up (by hand or using FIGMA or similar tools)
 
-## Suplementary Material
+## Suplementary Material - Optional

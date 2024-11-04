@@ -7,7 +7,7 @@
 
 ### [Preparation](Preparation.md)
 
-#### [Teachers](Teachers.md)
+### [Teachers](Teachers.md)
 
 ### [Study Plan](Schedule.md)
 

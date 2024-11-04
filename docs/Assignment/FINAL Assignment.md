@@ -31,7 +31,7 @@ For this assignment you are expected to submit:
 
 2. **Link to web scene/animation**
 3. **Zip file** with all the data used to generate the 3D model for assesment.
-4 **Video Presentation** showcasing your work and explaining the decisions made for the assignment.
+4. **Video Presentation** showcasing your work and explaining the decisions made for the assignment.
 
 ## Methods & Software
 
@@ -94,20 +94,20 @@ Hint: You can use Google street view as well
 | **Doc file**                                      |        |                              |
 | - Reporting (completeness, correctness, clarity)  | 10     |                              |
 | - Well-described methods and their application    | 10     |                              |
-| - Reflection on the questions (6 questions)       | 12     |                              |
+| - Reflection on the questions (6 questions)       | 10     |                              |
 | **3D model**                                      |        |                              |
 | - LOD reached and explained                       | 3      |                              |
-| - Level of realism and visualization              | 10     |                              |
+| - Level of realism and visualization              | 12     |                              |
 | - Explanation of scale                            | 5      |                              |
 | - Methodological diagram                          | 15     |                              |
 | - Visuals from all sides                          | 10     |                              |
 | - Level of complexity and innovativeness          | 10     |                              |
 | **Presentation/Video**                            |        |                              |
 | - Presentation style and content                  | 5      |                              |
-| - 3D component clarity and demo                   | 5      |                              |
+| - 3D component clarity and demo                   | 10      |                              |
 
 Total points available: **100**  
-Final grade: 70% of the total.  
+
 
 ### Examples  
 

@@ -387,3 +387,6 @@ Now that the basic OSM data is collected, we will filter and adjust it in a way 
  
 7.	Exit edit mode by pressing tab again. And export the network using `File -> Export -> FBX (.fbx)` set the Forward transform to X Forward and the Up to Z Up and press Export FXB when you have navigated to the place you want the file to be. Don’t forget to name your file.
 
+## Presentation
+
+Now that you have finished your first 3D model you should present it and discuss in the live session. Also upload some images of your model in Canvas
