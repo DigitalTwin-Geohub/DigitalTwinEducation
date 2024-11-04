@@ -3,7 +3,9 @@
 ## Mandatory Readings 
 
 * Epstein J. M. *[Why Model?](https://www.jasss.org/11/4/12.html)* Journal of Artificial Societies and Social Simulation 11(4)12
+Optional Reading Materials:
 
+* [Mathematical and Computational Modelling of Doubly Complex Systems Theoretical reflections on the theory and the practice of the Scientific Method in modelling the social and temporal dynamics of societal phenomena](https://www.researchgate.net/publication/337922945_Mathematical_and_Computational_Modelling_of_Doubly_Complex_Systems_Theoretical_reflections_on_the_theory_and_the_practice_of_the_Scientific_Method_in_modelling_the_social_and_temporal_dynamics_of_soci)
 
 ## Lecture - Models and Decisions | Dr. MArch. P. Nourian
 
