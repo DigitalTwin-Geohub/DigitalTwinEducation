@@ -6,7 +6,7 @@
 *
 
 
-## Lecture - Introduction to 3D modeling | Dr. Mila Koeva
+## Lecture - Big data modelling and visualisation for Digital Twins? | Dr. Mila Koeva
 
 [Link to video](video)
 

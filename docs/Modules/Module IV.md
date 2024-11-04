@@ -3,7 +3,6 @@
 ## Mandatory Readings 
 
 * Epstein J. M. *[Why Model?](https://www.jasss.org/11/4/12.html)* Journal of Artificial Societies and Social Simulation 11(4)12
-*
 
 
 ## Lecture - Models and Decisions | Dr. MArch. P. Nourian

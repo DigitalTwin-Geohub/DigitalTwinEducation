@@ -11,7 +11,7 @@
 
 ## Assignment
 
-For this week your assignment is to create yoour own geoprocess and dashboard [Assignment 4](../Assignment/Assignment%20IV.md).
+For this week your assignment is to create your own geoprocess and dashboard [Assignment 4](../Assignment/Assignment%20IV.md).
 
 
 ## Preparation for Final Assignment
