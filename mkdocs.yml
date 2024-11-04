@@ -12,13 +12,14 @@ nav:
     - Module IV: Modules/Module IV.md
     - Module V: Modules/Module V.md
   - Assignments: 
-    
     - Assingment 1: Assignment/Assignment I.md
     - Assingment 2: Assignment/Assignment II.md
     - Assingment 3: Assignment/Assignment III.md
     # - Assingment 4: Assignment/Assignment IV.md
     # - Assingment 5: Assignment/Assignment V.md
     - Final Assignment: Assignment/FINAL Assignment.md
+    - Tutorials:
+      - Tutorial: Assignment/Intro to Blender.md
   - About:
     - License: license.md
     - Citing: citing.md
