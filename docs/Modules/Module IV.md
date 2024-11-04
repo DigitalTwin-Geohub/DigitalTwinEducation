@@ -7,6 +7,7 @@ Optional Reading Materials:
 
 * [Mathematical and Computational Modelling of Doubly Complex Systems Theoretical reflections on the theory and the practice of the Scientific Method in modelling the social and temporal dynamics of societal phenomena](https://www.researchgate.net/publication/337922945_Mathematical_and_Computational_Modelling_of_Doubly_Complex_Systems_Theoretical_reflections_on_the_theory_and_the_practice_of_the_Scientific_Method_in_modelling_the_social_and_temporal_dynamics_of_soci)
 * [Cellular Agent Based Models Introducing Cellular Agent Based Modeling & Their Application in Design and Analysis of Built Environments](https://www.researchgate.net/publication/332671951_Cellular_Agent_Based_Models_Introducing_Cellular_Agent_Based_Modeling_Their_Application_in_Design_and_Analysis_of_Built_Environments)
+* [Big Questions about Literally Small Worlds: What is the appeal of small worlds, Complexity or Simplicity?](https://www.researchgate.net/publication/352159518_Big_Questions_about_Literally_Small_Worlds_What_is_the_appeal_of_small_worlds_Complexity_or_Simplicity)
 
 ## Lecture - Models and Decisions | Dr. MArch. P. Nourian
 
