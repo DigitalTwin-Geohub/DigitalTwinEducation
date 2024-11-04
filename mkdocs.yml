@@ -16,8 +16,8 @@ nav:
     - Assingment 1: Assignment/Assignment I.md
     - Assingment 2: Assignment/Assignment II.md
     - Assingment 3: Assignment/Assignment III.md
-    - Assingment 4: Assignment/Assignment IV.md
-    - Assingment 5: Assignment/Assignment V.md
+    # - Assingment 4: Assignment/Assignment IV.md
+    # - Assingment 5: Assignment/Assignment V.md
     - Final Assignment: Assignment/FINAL Assignment.md
   - About:
     - License: license.md
