@@ -1,5 +1,7 @@
 # Preparation for Course
 
+<p style="text-align: right" ><img src="./images/ut-itc-logo-rgb.png" width="300"></p>
+
 **Welcome to the Digital Twin course!**
 
 In this course, you will go deep into the foundational elements of Digital Twins, exploring how these virtual representations can mirror real-world systems to generate insightful analyses and support decision-making. You will start by understanding the core components that make up a digital twin, including data acquisition, model integration, and visualization, before progressing to design and implement a basic digital twin prototype.

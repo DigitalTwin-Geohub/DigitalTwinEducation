@@ -1,5 +1,7 @@
 # Course assignment
 
+<p style="text-align: right" ><img src="../images/ut-itc-logo-rgb.png" width="300"></p>
+
 ## Assignment objective
 
 To create a 3D model including buildings at least LOD1 and surrounding
@@ -9,8 +11,9 @@ environment for a concrete area of interest (AOI).
 
 The development of 3D city models at various levels of detail using commercial or open source solutions enables various local governments and decision makers to communicate efficiently and react on time in case of disaster. They also enable citizens to comment and propose alternatives, providing feedback to planning authorities.
 
-Some 3D models are interactive, meaning that the users can look around freely, toggle on and off certain information. This interactive process makes the end user feel like that they have made a new discovery independently, they can lead to insights that are not possible in 2D, without interaction. 3D models can be of help for many applications (see Lecture slides). A study has been conducted were their application in 29 case studies was shown for more than 100 applications Biljecki, F., Ledoux, H., & Stoter, J. (2016). In the past 3D city models were used mainly for visualization, however, nowadays they are used in a number of domains for tasks much beyond the pure visualization. One of the simplest methods to construct a 3D city model is to extrude building footprints, to obtain “block-
-shaped” buildings. While the method is well-known and easy to implement, if the topological relationships between the footprints are not taken into account, the resulting city models will not necessarily be topologically consistent.
+Some 3D models are interactive, meaning that the users can look around freely, toggle on and off certain information. This interactive process makes the end user feel like that they have made a new discovery independently, they can lead to insights that are not possible in 2D, without interaction. 3D models can be of help for many applications (see Lecture slides). A study has been conducted were their application in 29 case studies was shown for more than 100 applications Biljecki, F., Ledoux, H., & Stoter, J. (2016). 
+
+In the past 3D city models were used mainly for visualization, however, nowadays they are used in a number of domains for tasks much beyond the pure visualization. One of the simplest methods to construct a 3D city model is to extrude building footprints, to obtain “block- shaped” buildings. While the method is well-known and easy to implement, if the topological relationships between the footprints are not taken into account, the resulting city models will not necessarily be topologically consistent.
 
 ## Expected time investment
 
@@ -23,15 +26,20 @@ For this assignment you are expected to submit:
 1. **Word document** in the assignment dropbox on Canvas. This document should include a detailed description of the methods you have used for creating your model with supporting screenshots; pictures from the created visualisation, link to the model or video/animation and answers to the following questions:
 
    1) Why this method was selected? Write a motivation based on comparison with other methods.
+
    2) What LOD will be reached and why?
+
    3) What sensor information can be integrated to your 3D model to call it a Digital Twin model? Please provide examples and link them with a concrete application.
+
    4) What are the possible applications for the model you have created? A demonstration or link to the literature would be a plus
+
    5) Who can be a logical user of your model?
+
    6) If you had more time what could have been your next steps to improve your 3D model?
 
 2. **Link to web scene/animation**
 3. **Zip file** with all the data used to generate the 3D model for assesment.
-4. **Video Presentation** showcasing your work and explaining the decisions made for the assignment.
+4. **Video Presentation** showcasing your work and explaining the decisions made for the assignment. **Maximum 10 minutes**
 
 ## Methods & Software
 
@@ -79,7 +87,7 @@ Data for the whole Netherlands, if you decide using such, can be downloaded from
 * [PDOK for QGIS](https://pdok-ngr.readthedocs.io/quickstart.html#qgis)
 * Footprints of the buildings:
   * From this link you can download all the building footprints for the whole Netherlands
-        https://geodata.nationaalgeoregister.nl/bag/wfs?request=GetCapabilities&service=wfs
+        [] https://geodata.nationaalgeoregister.nl/bag/wfs?request=GetCapabilities&service=wfs
 
 * Data from open street view can also be provided to you
 
@@ -95,7 +103,7 @@ Hint: You can use Google street view as well
 | - Reporting (completeness, correctness, clarity)  | 10     |                              |
 | - Well-described methods and their application    | 10     |                              |
 | - Reflection on the questions (6 questions)       | 5      |                              |
-| **Presentation/Video**                            |        |                              |
+| **Video**                            |        |                              |
 | - Presentation style and content                  | 5      |                              |
 | - 3D component clarity and demo                   | 10     |                              |
 | ---                                               | ---    |                              |

@@ -1,5 +1,7 @@
 # Orientation and Final Assignment Introduction
 
+<p style="text-align: right" ><img src="../images/ut-itc-logo-rgb.png" width="300"></p>
+
 ## Syllabus
 
 [Access to Syallabus in Canvas](https://canvas.vu.nl/courses/80299)
@@ -31,3 +33,5 @@ Join the [MS-Teams live office hour](https://teams.microsoft.com/l/meetup-join/1
 * 	How are outcomes measured?
 
 ## Further Readings - Optional
+
+

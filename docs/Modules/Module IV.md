@@ -1,5 +1,7 @@
 # Week 6 and 7: Decision analysis
 
+<p style="text-align: right" ><img src="../images/ut-itc-logo-rgb.png" width="300"></p>
+
 ## Mandatory Readings 
 
 * Epstein J. M. *[Why Model?](https://www.jasss.org/11/4/12.html)* Journal of Artificial Societies and Social Simulation 11(4)12
