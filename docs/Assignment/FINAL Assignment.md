@@ -1,6 +1,6 @@
 # Course assignment
 
-<p style="text-align: right" ><img src="../images/ut-itc-logo-rgb.png" width="300"></p>
+<p style="text-align: right" ><img src="images/ut-itc-logo-rgb.png" width="300"></p>
 
 ## Assignment objective
 
