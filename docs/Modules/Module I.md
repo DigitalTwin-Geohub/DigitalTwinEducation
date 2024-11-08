@@ -1,8 +1,8 @@
 # Orientation and Final Assignment presentation
 
-## Syllabus and Presentation
+## Syllabus
 
-[](https://canvas.vu.nl/courses/80299)
+[Access to Syallabus in Canvas](https://canvas.vu.nl/courses/80299)
 
 ## Introduce yourself
 
