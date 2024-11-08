@@ -10,11 +10,9 @@
 
 [Link to video](video)
 
-## Assignment
 
-For this week your assignment is to transform a point cloud into a 3D object [Assignment 2](../Assignment/Assignment%20II.md).
 
-## Preparation for Final Assignment
+## Assignment 3 (non graded)
 
 
 #### COLLECTION AND INTERACTION - Write one to two pages

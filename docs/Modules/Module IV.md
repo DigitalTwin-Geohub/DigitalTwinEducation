@@ -13,11 +13,8 @@ Optional Reading Materials:
 
 [Link to video](video)
 
-## Assignment
 
-For this week your assignment ..... [Assignment 3](../Assignment/Assignment%20III.md).
-
-## Preparation for Final Assignment
+## Assignment 4 (non graded)
 
 #### PROCESS AND ANALYSIS - Write one to two pages
 
