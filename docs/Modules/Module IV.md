@@ -1,4 +1,4 @@
-# Week 5 and 6: Decision analysis
+# Week 6 and 7: Decision analysis
 
 ## Mandatory Readings 
 
@@ -18,15 +18,20 @@ Optional Reading Materials:
 
 #### PROCESS AND ANALYSIS - Write one to two pages
 
-*	How could data interact to achieve your goal? Create a Flowchart explaining which are inputs and outputs. Remember using the outputs from preparation Task 2.
+*  How could data interact to achieve your goal? 
 *  Which human influences or natural conditions can be **driver** forces that affect your study area?
 *  What is the **pressures** genereted by these conditions?
 *  What are the **states** or conditions of the environment affected by the pressures?
 *  What are the **impacts** either biological, social, economic or environmental that the change of state create?
 *  What are possible key indicators that stakeholders would need to **respond** to the changes in the system?
 
-* Create a Flowchart explaining the relationships of the previous items, identify which are inputs and outputs.  Remember using the outputs from preparation Task 3.
+* Create a Flowchart explaining the relationships of the previous items, identify which are inputs and outputs.  Remember using the outputs from preparation Assignment 3.
 * Review if you require more data for completing your model.
+
+## Live office hour 
+
+Join the [MS-Teams live office hour](https://teams.microsoft.com/l/meetup-join/19%3aLOGW63CI3_SKFd3BGZKHTMp3iGFXa64dHUsDIbpC0pg1%40thread.tacv2/1726814576878?context=%7b%22Tid%22%3a%22723246a1-c3f5-43c5-acdc-43adb404ac4d%22%2c%22Oid%22%3a%2280d1a586-55cf-4761-85f7-eb620a0bfbe5%22%7d) on **3th January, 1pm - CEST**
+
 
 ## Suplementary Material - Optional
 
