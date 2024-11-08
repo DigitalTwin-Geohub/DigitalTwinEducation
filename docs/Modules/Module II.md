@@ -16,7 +16,7 @@
 
 For this week the assignment is a [Tutorial 1 Intro to Blender](../Assignment/Intro%20to%20blender.md), Downloading 3D data, Visualizing existing data and from QGIS to Blender excercise. [Tutorial 2 Gathering data](../Assignment/Assignment%20I.md).
 
-## Assignment 1 (not graded)
+## Assignment 2 (not graded)
 
 #### DECISION - Write one to two pages
 
