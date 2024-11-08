@@ -91,20 +91,25 @@ Hint: You can use Google street view as well
 
 | Criteria                                          | Points | Comments                    |
 |---------------------------------------------------|--------|------------------------------|
-| **Doc file**                                      |        |                              |
-| - Reporting (completeness, correctness, clarity)  | 10     |                              |
+| **Document**                                      |        |                              |
+| - Reporting (completeness, correctness, clarity)  | 5      |                              |
 | - Well-described methods and their application    | 10     |                              |
 | - Reflection on the questions (6 questions)       | 10     |                              |
+| **Presentation/Video**                            |        |                              |
+| - Presentation style and content                  | 5      |                              |
+| - 3D component clarity and demo                   | 10     |                              |
+| ---| ---| ---|
+| **REPORT AND PRESENTATION**                       | 40     |                              |
 | **3D model**                                      |        |                              |
 | - LOD reached and explained                       | 3      |                              |
 | - Level of realism and visualization              | 12     |                              |
 | - Explanation of scale                            | 5      |                              |
-| - Methodological diagram                          | 15     |                              |
-| - Visuals from all sides                          | 10     |                              |
-| - Level of complexity and innovativeness          | 10     |                              |
-| **Presentation/Video**                            |        |                              |
-| - Presentation style and content                  | 5      |                              |
-| - 3D component clarity and demo                   | 10      |                              |
+| - Methodological diagram                          | 13     |                              |
+| - Visuals from all sides                          | 12     |                              |
+| - Level of complexity and innovativeness          | 15     |                              |
+| ---| ---| ---|
+| **REPORT AND PRESENTATION**                       | 60     |                              |
+
 
 Total points available: **100**  
 
