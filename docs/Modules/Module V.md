@@ -16,7 +16,7 @@
 
 ## Assignment 5 (non graded)
 
-#### PROCESS AND ANALYSIS - Write one to two pages
+#### INSIGHT based on your model - Write one to two pages
 
 *	Transform your flowchart into sequential geoprocesses (conceptually first)
 *	Are all functions available? Do you need to create a python script? explain
