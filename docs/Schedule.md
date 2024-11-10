@@ -1,5 +1,5 @@
 
-<p style="text-align: right" ><img src="./images/ut-itc-logo-rgb.png" width="300"></p>
+<p style="text-align: right" ><img src="../images/ut-itc-logo-rgb.png" width="300"></p>
 
 
 |    <br>Module/Week    |    <br>Lecture    |    <br>Assignment    |    <br>MS Teams and deadlines    |    <br>Teacher    |
