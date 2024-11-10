@@ -1,6 +1,6 @@
-# Week 2 and 3: Introduction to Digital Twins
+<p style="text-align: right" ><img src="../../images/ut-itc-logo-rgb.png" width="300"></p>
 
-<p style="text-align: right" ><img src="../images/ut-itc-logo-rgb.png" width="300"></p>
+# Week 2 and 3: Introduction to Digital Twins
 
 ## Mandatory Readings 
 

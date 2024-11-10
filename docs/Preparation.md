@@ -1,6 +1,6 @@
-# Preparation for Course
-
 <p style="text-align: right" ><img src="./images/ut-itc-logo-rgb.png" width="300"></p>
+
+# Preparation for Course
 
 **Welcome to the Digital Twin course!**
 

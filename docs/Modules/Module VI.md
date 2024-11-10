@@ -1,3 +1,5 @@
+<p style="text-align: right" ><img src="../../images/ut-itc-logo-rgb.png" width="300"></p>
+
 # Week 10: Closure
 
 ## Final Assignment

@@ -1,6 +1,6 @@
-# Week 8 and 9: Geoprocesses and Dashboards
+<p style="text-align: right" ><img src="../../images/ut-itc-logo-rgb.png" width="300"></p>
 
-<p style="text-align: right" ><img src="../images/ut-itc-logo-rgb.png" width="300"></p>
+# Week 8 and 9: Geoprocesses and Dashboards
 
 ## Mandatory Readings 
 

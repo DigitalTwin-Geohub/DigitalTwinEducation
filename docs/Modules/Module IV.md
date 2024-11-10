@@ -1,6 +1,6 @@
-# Week 6 and 7: Decision analysis
+<p style="text-align: right" ><img src="../../images/ut-itc-logo-rgb.png" width="300"></p>
 
-<p style="text-align: right" ><img src="../images/ut-itc-logo-rgb.png" width="300"></p>
+# Week 6 and 7: Decision analysis
 
 ## Mandatory Readings 
 

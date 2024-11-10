@@ -1,6 +1,6 @@
-# Week 4 and 5: 3D visualization and Data Integration
+<p style="text-align: right" ><img src="../../images/ut-itc-logo-rgb.png" width="300"></p>
 
-<p style="text-align: right" ><img src="../images/ut-itc-logo-rgb.png" width="300"></p>
+# Week 4 and 5: 3D visualization and Data Integration
 
 ## Mandatory Readings 
 
