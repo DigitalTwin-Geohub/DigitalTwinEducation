@@ -17,6 +17,12 @@ Practical Guidelines for Building Planning Support Systems in Python:
 
 * [3D Geospatial Digital Twinning Workbench in Python](https://github.com/Generative-Systems-Sciences/Enschede_3dWorkbench)
 
+* [Location on Networks CUL](https://www.researchgate.net/publication/5063493_Location_on_Networks)
+
+* [Location on Networks MIT](https://books.google.nl/books/about/Location_on_Networks.html?id=rGFRAAAAMAAJ&redir_esc=y)
+
+* [Location Science](https://link.springer.com/book/10.1007/978-3-030-32177-2)
+
 ## Lecture - Models and Decisions | Dr. MArch. P. Nourian
 
 [Link to video](video)
