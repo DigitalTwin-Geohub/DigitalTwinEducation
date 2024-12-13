@@ -23,6 +23,8 @@ Practical Guidelines for Building Planning Support Systems in Python:
 
 * [Location Science](https://link.springer.com/book/10.1007/978-3-030-32177-2)
 
+* [Facility Location Problems](https://link.springer.com/book/10.1007/978-3-7908-2151-2)
+
 ## Lecture - Models and Decisions | Dr. MArch. P. Nourian
 
 [Link to video](video)
