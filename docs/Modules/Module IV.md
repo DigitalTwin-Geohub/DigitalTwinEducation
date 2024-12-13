@@ -13,6 +13,7 @@ Optional Reading Materials:
 
 Practical Guidelines for Building Planning Support Systems in Python:
 * [PyDeck](https://deckgl.readthedocs.io/en/latest/)
+
 * [3D Geospatial Digital Twinning Workbench in Python](https://github.com/Generative-Systems-Sciences/Enschede_3dWorkbench)
 
 ## Lecture - Models and Decisions | Dr. MArch. P. Nourian
