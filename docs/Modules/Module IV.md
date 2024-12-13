@@ -11,6 +11,10 @@ Optional Reading Materials:
 * [Cellular Agent Based Models Introducing Cellular Agent Based Modeling & Their Application in Design and Analysis of Built Environments](https://www.researchgate.net/publication/332671951_Cellular_Agent_Based_Models_Introducing_Cellular_Agent_Based_Modeling_Their_Application_in_Design_and_Analysis_of_Built_Environments)
 * [Big Questions about Literally Small Worlds: What is the appeal of small worlds, Complexity or Simplicity?](https://www.researchgate.net/publication/352159518_Big_Questions_about_Literally_Small_Worlds_What_is_the_appeal_of_small_worlds_Complexity_or_Simplicity)
 
+Practical Guidelines for Building Planning Support Systems in Python:
+* [PyDeck](https://deckgl.readthedocs.io/en/latest/)
+* [3D Geospatial Digital Twinning Workbench in Python](https://github.com/Generative-Systems-Sciences/Enschede_3dWorkbench)
+
 ## Lecture - Models and Decisions | Dr. MArch. P. Nourian
 
 [Link to video](video)
