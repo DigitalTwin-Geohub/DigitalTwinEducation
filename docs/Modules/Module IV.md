@@ -12,6 +12,7 @@ Optional Reading Materials:
 * [Big Questions about Literally Small Worlds: What is the appeal of small worlds, Complexity or Simplicity?](https://www.researchgate.net/publication/352159518_Big_Questions_about_Literally_Small_Worlds_What_is_the_appeal_of_small_worlds_Complexity_or_Simplicity)
 
 Practical Guidelines for Building Planning Support Systems in Python:
+
 * [PyDeck](https://deckgl.readthedocs.io/en/latest/)
 
 * [3D Geospatial Digital Twinning Workbench in Python](https://github.com/Generative-Systems-Sciences/Enschede_3dWorkbench)
