@@ -30,6 +30,9 @@ Practical Guidelines for Building Planning Support Systems in Python:
 
 [Link to video](video)
 
+## Exemplary works on using Digital Twins for Planning Support and Policy Analysis:
+
+* Simulating Urban Complexity for City Co-Creation on Three Scales, PhD Dissertation Javier Argota Sanchez-Vaquerizo, ETH Zurich](https://www.research-collection.ethz.ch/handle/20.500.11850/699615)
 
 ## Assignment 4 (non graded)
 
