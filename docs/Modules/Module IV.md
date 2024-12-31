@@ -10,11 +10,29 @@ Optional Reading Materials:
 * [Mathematical and Computational Modelling of Doubly Complex Systems Theoretical reflections on the theory and the practice of the Scientific Method in modelling the social and temporal dynamics of societal phenomena](https://www.researchgate.net/publication/337922945_Mathematical_and_Computational_Modelling_of_Doubly_Complex_Systems_Theoretical_reflections_on_the_theory_and_the_practice_of_the_Scientific_Method_in_modelling_the_social_and_temporal_dynamics_of_soci)
 * [Cellular Agent Based Models Introducing Cellular Agent Based Modeling & Their Application in Design and Analysis of Built Environments](https://www.researchgate.net/publication/332671951_Cellular_Agent_Based_Models_Introducing_Cellular_Agent_Based_Modeling_Their_Application_in_Design_and_Analysis_of_Built_Environments)
 * [Big Questions about Literally Small Worlds: What is the appeal of small worlds, Complexity or Simplicity?](https://www.researchgate.net/publication/352159518_Big_Questions_about_Literally_Small_Worlds_What_is_the_appeal_of_small_worlds_Complexity_or_Simplicity)
+* [On Evaluation and Optimization; preliminaries for impact assessment](https://www.researchgate.net/publication/316317673_On_Evaluation_and_Optimization_a_short_introduction_to_essential_topics_CC_Attribution-NoDerivs_License)
+
+Practical Guidelines for Building Planning Support Systems in Python:
+
+* [PyDeck](https://deckgl.readthedocs.io/en/latest/)
+
+* [3D Geospatial Digital Twinning Workbench in Python](https://github.com/Generative-Systems-Sciences/Enschede_3dWorkbench)
+
+* [Location on Networks CUL](https://www.researchgate.net/publication/5063493_Location_on_Networks)
+
+* [Location on Networks MIT](https://books.google.nl/books/about/Location_on_Networks.html?id=rGFRAAAAMAAJ&redir_esc=y)
+
+* [Location Science](https://link.springer.com/book/10.1007/978-3-030-32177-2)
+
+* [Facility Location Problems](https://link.springer.com/book/10.1007/978-3-7908-2151-2)
 
 ## Lecture - Models and Decisions | Dr. MArch. P. Nourian
 
 [Link to video](video)
 
+## Exemplary works on using Digital Twins for Planning Support and Policy Analysis:
+
+* [Simulating Urban Complexity for City Co-Creation on Three Scales, PhD Dissertation Javier Argota Sanchez-Vaquerizo, ETH Zurich](https://www.research-collection.ethz.ch/handle/20.500.11850/699615)
 
 ## Assignment 4 (non graded)
 
