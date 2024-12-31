@@ -9,10 +9,13 @@
 
 
 ## Lecture - Building sequential processes and Dashboards | Eng. Iván Cárdenas, MSc.
-[Link to video](video)
+<video width="600" height="370" controls>
+  <source src="https://youtu.be/ylTlADE8_zY" type="video/mp4">
+</video>
 
 ## Tutorial
 
+[Tutorial 3](../Assignment/Tutorial%203.md)
 
 ## Assignment 5 (non graded)
 
