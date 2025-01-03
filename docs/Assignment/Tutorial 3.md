@@ -14,6 +14,7 @@ We also provide with a [video](https://youtu.be/WjoYRjI_w9w) on how to use this 
 Please cite this work
 
 ### BibTeX
+
 ```
 @misc{cardenas_ivan_l_2023_8306385,
   author       = {Cárdenas, Ivan L. and
@@ -903,7 +904,7 @@ This code checks if the "Grass R" dataset is null. If it is null, the output wil
 
 7)	Save your model and test it by pressing “Run” to execute the Raster Calculator tool. It will apply the provided code to perform the specified calculations on the input rasters.
 
-#### C.	WATER EFFECT ON BOWEN RATIO
+##### C.	WATER EFFECT ON BOWEN RATIO
 
 Now we will try to obtain the effect of the water in the Bowen Ratio, for this you will need to add the Water Body areas shapefile to your ModelBuilder by dragging it and dropping it into the model area, be sure to make it a parameter.
 
