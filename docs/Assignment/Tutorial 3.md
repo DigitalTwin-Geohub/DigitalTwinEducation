@@ -1,6 +1,6 @@
 <p style="text-align: right" ><img src="../../images/ut-itc-logo-rgb.png" width="300"></p>
 
-This tutorial is an adaptation of the work published in by [Cárdenas-León et al.](https://isprs-annals.copernicus.org/articles/X-4-2024/67/2024/) and the [Digital Twins for PET Calculation Tutorial] (https://github.com/ivan-cardenas/PET-DigitalTwins/tree/main)
+This tutorial is an adaptation of the work published in by [Cárdenas-León et al.](https://isprs-annals.copernicus.org/articles/X-4-2024/67/2024/) and the [Digital Twins for PET Calculation Tutorial](https://github.com/ivan-cardenas/PET-DigitalTwins/tree/main)
 
 *Online Tool*
 You can access the working online tool [here](https://utwente.maps.arcgis.com/apps/webappviewer/index.html?id=ca1f19d5ecfb4820a5d1c0ae31d61563) 
@@ -14,7 +14,7 @@ We also provide with a [video](https://youtu.be/WjoYRjI_w9w) on how to use this 
 Please cite this work
 
 ### BibTeX
-
+.
 ```
 @misc{cardenas_ivan_l_2023_8306385,
   author       = {Cárdenas, Ivan L. and
