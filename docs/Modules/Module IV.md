@@ -4,6 +4,8 @@
 
 ## Mandatory Readings 
 
+* Lecture Notes: [Augmented Spatial Planning](https://www.researchgate.net/publication/393061938_Augmented_Spatial_Planning)
+
 * Epstein J. M. *[Why Model?](https://www.jasss.org/11/4/12.html)* Journal of Artificial Societies and Social Simulation 11(4)12
 Optional Reading Materials:
 
