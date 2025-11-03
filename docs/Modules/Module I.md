@@ -12,12 +12,12 @@ Go to [Canvas](https://canvas.vu.nl/courses/80299/assignments/361274?module_item
 
 ## LIVE KICK-OFF 
 
-Join the [MS-Teams live kick-off meeting](https://teams.microsoft.com/l/meetup-join/19%3aLOGW63CI3_SKFd3BGZKHTMp3iGFXa64dHUsDIbpC0pg1%40thread.tacv2/1726814576878?context=%7b%22Tid%22%3a%22723246a1-c3f5-43c5-acdc-43adb404ac4d%22%2c%22Oid%22%3a%2280d1a586-55cf-4761-85f7-eb620a0bfbe5%22%7d) on **11th November, 1pm - CEST**
+Join the [MS-Teams live kick-off meeting](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjRjNmFlMGItMTM1OC00N2RiLWJiYTMtOGExMzVkNDBmMDFl%40thread.v2/0?context=%7b%22Tid%22%3a%22723246a1-c3f5-43c5-acdc-43adb404ac4d%22%2c%22Oid%22%3a%2280d1a586-55cf-4761-85f7-eb620a0bfbe5%22%7d) on **10th November, 1pm - CEST**
 
 
 ## LIVE Office hour
 
-Join the [MS-Teams live office hour](https://teams.microsoft.com/l/meetup-join/19%3aLOGW63CI3_SKFd3BGZKHTMp3iGFXa64dHUsDIbpC0pg1%40thread.tacv2/1726814576878?context=%7b%22Tid%22%3a%22723246a1-c3f5-43c5-acdc-43adb404ac4d%22%2c%22Oid%22%3a%2280d1a586-55cf-4761-85f7-eb620a0bfbe5%22%7d) on **15th November, 1pm - CEST**
+Join the [MS-Teams live office hour](https://teams.microsoft.com/l/meetup-join/19%3ameeting_M2VhNzcyYzUtMDE5NC00MGMyLTk4YWMtZGJjODU2Y2FjMmI3%40thread.v2/0?context=%7b%22Tid%22%3a%22723246a1-c3f5-43c5-acdc-43adb404ac4d%22%2c%22Oid%22%3a%2280d1a586-55cf-4761-85f7-eb620a0bfbe5%22%7d) on **14th November, 1pm - CEST**
 
 
 ## Assignment 1 (non graded)

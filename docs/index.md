@@ -17,7 +17,7 @@
 
 #### [Module I: Orientation](./Modules/Module%20I.md)
 
-#### [Introduce yourself](https://canvas.vu.nl/courses/80299/assignments/361274)
+#### [Introduce yourself](https://canvas.vu.nl/courses/86183/assignments/439862)
 
 #### [Course Project](./Assignment/FINAL%20Assignment.md)
 
@@ -33,28 +33,28 @@
 
 #### [Module III: 3D visualization and Data Integration](./Modules/Module%20III.md)
 
-#### [Assignment 2: Point Cloud to 3D object](./Assignment/Assignment%20II.md)
+<!-- #### [Assignment 2: Point Cloud to 3D object](./Assignment/Assignment%20II.md) -->
 
 ### Week 6 and 7
 
 #### [Module IV: Decision Analysis](./Modules/Module%20IV.md)
 
-#### [Assignment 3: ... ](./Assignment/Assignment%20III.md)
+<!-- #### [Assignment 3: ... ](./Assignment/Assignment%20III.md) -->
 
 ### Week 8 and 9
 
 #### [Module V: Geoprocess and Dashboards](./Modules/Module%20V.md)
 
-#### [Assignment 4: Create your Dashboard](./Assignment/Assignment%20IV.md)
+<!-- #### [Assignment 4: Create your Dashboard](./Assignment/Assignment%20IV.md) -->
 
 ## Week 9 and 10
 
-#### [Closure Session](https://teams.microsoft.com/l/meetup-join/19%3aLOGW63CI3_SKFd3BGZKHTMp3iGFXa64dHUsDIbpC0pg1%40thread.tacv2/1726814576878?context=%7b%22Tid%22%3a%22723246a1-c3f5-43c5-acdc-43adb404ac4d%22%2c%22Oid%22%3a%2280d1a586-55cf-4761-85f7-eb620a0bfbe5%22%7d) on 
+#### [Closure Session](https://teams.microsoft.com/l/meetup-join/19%3ameeting_M2VhNzcyYzUtMDE5NC00MGMyLTk4YWMtZGJjODU2Y2FjMmI3%40thread.v2/0?context=%7b%22Tid%22%3a%22723246a1-c3f5-43c5-acdc-43adb404ac4d%22%2c%22Oid%22%3a%2280d1a586-55cf-4761-85f7-eb620a0bfbe5%22%7d) on TBA
 
 
 ## Live office Hour
 
-Join the [MS-Teams open office hour](https://teams.microsoft.com/l/meetup-join/19%3aLOGW63CI3_SKFd3BGZKHTMp3iGFXa64dHUsDIbpC0pg1%40thread.tacv2/1726814576878?context=%7b%22Tid%22%3a%22723246a1-c3f5-43c5-acdc-43adb404ac4d%22%2c%22Oid%22%3a%2280d1a586-55cf-4761-85f7-eb620a0bfbe5%22%7d) every **Friday, 14:00 - CEST**
+Join the [MS-Teams open office hour](https://teams.microsoft.com/l/meetup-join/19%3ameeting_M2VhNzcyYzUtMDE5NC00MGMyLTk4YWMtZGJjODU2Y2FjMmI3%40thread.v2/0?context=%7b%22Tid%22%3a%22723246a1-c3f5-43c5-acdc-43adb404ac4d%22%2c%22Oid%22%3a%2280d1a586-55cf-4761-85f7-eb620a0bfbe5%22%7d) every **Friday, 14:00 - CEST**
 
 ## Digital Twin Geohub
 
