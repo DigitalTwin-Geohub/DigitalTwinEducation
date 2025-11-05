@@ -44,11 +44,12 @@ Practical Guidelines for Building Planning Support Systems in Python:
 
 *  What are your user stories? ▶️ Represent the specific added value of your digital planning tool in a [Use-Case Diagram](https://www.geeksforgeeks.org/system-design/use-case-diagram/) and describe it briefly in text.
 *  How do you want to translate the questions and problems of users to queries and data processing functions? ▶️ Represent your data processing pipelines as a [Data Flow Diagram](https://www.geeksforgeeks.org/software-engineering/what-is-dfddata-flow-diagram/) and describe it briefly in text.
-*  Which human influences or natural conditions can be **driver** forces that affect your study area?
-*  What is the **pressures** genereted by these conditions?
-*  What are the **states** or conditions of the environment affected by the pressures?
-*  What are the **impacts** either biological, social, economic or environmental that the change of state create?
-*  What are possible key indicators that stakeholders would need to **respond** to the changes in the system?
+*  Describe the overall Conceptual Framework e.g. based on the [DPSIR framework](https://en.wikipedia.org/wiki/DPSIR)
+** Which human decisions or natural condition variables can be assumed as **driver** forces that affect the outcomes of interest (a.k.a. performance indicators or impact factors or policy targets, among other names)?
+**  What is the **pressures** genereted by these conditions?
+**  What are the **states** or conditions of the environment affected by the pressures?
+**  What are the **impacts** either biological, social, economic or environmental that the change of state create?
+**  What are possible key indicators that stakeholders would need to **respond** to the changes in the system?
 
 * Create a Flowchart explaining the relationships of the previous items, identify which are inputs and outputs.  Remember using the outputs from preparation Assignment 3.
 * Review if you require more data for completing your model.
