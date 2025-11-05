@@ -51,7 +51,7 @@ Practical Guidelines for Building Planning Support Systems in Python:
     *  What are the **impacts** either biological, social, economic or environmental that the change of state create?
     *  What are possible key indicators that stakeholders would need to **respond** to the changes in the system?
 
-* Create a Flowchart explaining the relationships of the previous items, identify which are inputs and outputs.  Remember using the outputs from preparation Assignment 3.
+* Create a Flowchart explaining [the relationships of the previous items](https://learningforsustainability.net/post/extended-dpsir/?utm_source=chatgpt.com), identify which are inputs and outputs.  Remember using the outputs from preparation Assignment 3.
 * Review if you require more data for completing your model.
 
 ## Live office hour 
