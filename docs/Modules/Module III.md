@@ -42,5 +42,5 @@ Check the tutorials of our friend and colleague Dr. [Florent Poux](https://www.l
 
  ✅ [Tutorial 4 (3D Workflow Application): 3D Python Workflows for LiDAR City Models, A Step-by-Step Guide](https://lnkd.in/eB_picCW)
 
- ✅ T[utorial 5 (3D AI Segmentation): Segment Anything 3D for Point Clouds, Complete Guide (SAM 3D)](https://lnkd.in/eWpnF4JS)
+ ✅ [Tutorial 5 (3D AI Segmentation): Segment Anything 3D for Point Clouds, Complete Guide (SAM 3D)](https://lnkd.in/eWpnF4JS)
  
