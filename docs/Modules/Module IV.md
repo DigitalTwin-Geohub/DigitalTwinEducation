@@ -16,6 +16,8 @@ Optional Reading Materials:
 
 Practical Guidelines for Building Planning Support Systems in Python:
 
+* [TWIN-NEXUS 1.0 An Open Source Digital Twinning Workbench in Python](https://www.researchgate.net/publication/396737857_TWIN-NEXUS_An_Open-Source_Geospatial_Digital_Twinning_Workbench)
+
 * [PyDeck](https://deckgl.readthedocs.io/en/latest/)
 
 * [3D Geospatial Digital Twinning Workbench in Python](https://github.com/Generative-Systems-Sciences/Enschede_3dWorkbench)
