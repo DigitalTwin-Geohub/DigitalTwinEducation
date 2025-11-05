@@ -40,9 +40,10 @@ Practical Guidelines for Building Planning Support Systems in Python:
 
 ## Assignment 4 (non graded)
 
-#### PROCESS AND ANALYSIS - Write one to two pages
+#### PROCESS AND ANALYSIS - Write one to two pages (include at least three diagrams, a conceptual framework, a use-case diagram, and a data-flow diagram, take a look at the [Gemini Principles](https://www.cdbb.cam.ac.uk/DFTG/GeminiPrinciples) ♊, you can follow the example of the [EquiCity Game](https://www.nature.com/articles/s41598-024-61093-4) 🎮 for the diagrams and use the free tool [Draw.IO](https://www.drawio.com/)✒️ for creating them)
 
-*  How could data interact to achieve your goal? 
+*  What are your user stories? ▶️ Represent the specific added value of your digital planning tool in a [Use-Case Diagram](https://www.geeksforgeeks.org/system-design/use-case-diagram/) and describe it briefly in text.
+*  How do you want to translate the questions and problems of users to queries and data processing functions? ▶️ Represent your data processing pipelines as a [Data Flow Diagram](https://www.geeksforgeeks.org/software-engineering/what-is-dfddata-flow-diagram/) and describe it briefly in text.
 *  Which human influences or natural conditions can be **driver** forces that affect your study area?
 *  What is the **pressures** genereted by these conditions?
 *  What are the **states** or conditions of the environment affected by the pressures?
