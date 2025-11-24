@@ -100,7 +100,7 @@ The terrain of the university campus is now complete, in this chapter the data o
 Go to File -> Export -> Wavefront (.obj) and press the “Export OBJ” button.
 
 ---
-
+## QGIS to Blender
 ## Making a 2D building plot in QGIS and exporting it to Blender
 
 ### Overview 
@@ -389,6 +389,41 @@ Now that the basic OSM data is collected, we will filter and adjust it in a way 
     ![](./Images/OSM-19.png)
  
 7.	Exit edit mode by pressing tab again. And export the network using `File -> Export -> FBX (.fbx)` set the Forward transform to X Forward and the Up to Z Up and press Export FXB when you have navigated to the place you want the file to be. Don’t forget to name your file.
+
+
+## 5.	Creating a building using basic modelling tools in Blender
+In this chapter, you will use the output blender file from the [QGIS to Blender tutorial](./Assignment%20I.md) and use that foundation to create a building. You are expected to use the methods discussed in the previous two tutorials to do this. This chapter will not be a step-by-step tutorial, instead I implore you to be creative and experi-ment with modelling the building. If you are stuck, look at this chapter as a guide and use it as inspira-tion.
+1.	Since the building is now 2D, you first want to add height to the building. So, select the building object, enter edit mode, select all faces, and extrude it up. You can use the extrude settings to precisely decide on the height of a floor since it is easiest to do this for each floor. So, if you want a floor to be 4 meters high, you set the Move Z to (-)4. Extrude it by 4 meters for as many floors as you want. 
+
+    ![](./Images/ib-21.png)
+
+2.	You could also only extrude certain parts of the model to create some parts of the buildings that are higher than others to add some more interesting parts to the building. Since you can only ex-trude complete faces, you might want to add some loop cuts and move them around to create smaller faces to add a floor to. Tip: if you want to see the lengths of the edges enable them in the overlay settings.
+
+    ![](./Images/ib-22.png)
+ 
+3.	Since the water must leave the inside, the bottom floor of that level must be deleted. To do that, select the face at the underside of the building, extrude them up by the height of your floors and in the extrude settings, enable “Dissolve Orthogonal Edges” to have Blender automatically delete the “floating” walls. If that doesn’t do the trick, you can manually delete the faces by selecting the bottom edge and deleting it. Don’t forget that you can move the camera to your selection by pressing “.” on the numpad or in the toolbar press View -> Frame Selected.
+
+    ![](./Images/ib-23.png)
+ 
+4.	This method can generate some double vertexes; therefore, it is wise to often merge the vertex-es that overlap. This can be done by selecting everything using A, pressing M and select By Dis-tance, this tool merges all vertexes that are within a certain distance. In the settings tab that pops us, make sure that the Merge Distance is not too large since this will merge vertexes that you do not want to merge.
+5.	Now would be a good time to assign the first materials, to give yourself an easier job, make sure that you colour each material differently
+
+    ![](./Images/ib-24.png)
+ 
+6.	Let’s now add windows, you can do this by selecting only the horizontal edges of a side and subdivide it as many times as you like. To make it yourself easier, already apply a new material to your selection. This way you will have a separate material for the frames of the windows. To do this afterwards takes a lot of time. Then inset the new windows, enable the “Individual” setting and assign the selection to a new material for glass. Depth greatly enhances a model, so you can add depth to the model by extruding certain parts, for example, set the glass a bit back. Do this for all sides where you want windows or doors. Try to vary with materials, think about this in advance.
+
+    ![](./Images/ib-25.png)
+ 
+7.	Now that the basic building is done, you can add additional details like an entrance etc.
+
+    ![](./Images/ib-26.png)
+ 
+8.	When you have finished your building, do not forget to check if all the faces are orientated cor-rectly and use smart UV unwrap to correct the UV’s. Also remove excessive vertexes using merge by distance.
+9.	Now the building can be exported, you can export to many file types, but the programs you will use the FXB format. Export the building by selecting the object and go to File -> Export -> FBX (.fbx). Check the “Selected Objects” box, under transform set the Forward to X Forward, and the Up to Z Up and hit the Export FBX button.
+
+    ![](./Images/ib-27.png)
+
+---
 
 ## Presentation
 

@@ -181,7 +181,7 @@ Now you pose the required basic modelling tools to create a building in Blender.
     ![](./Images/ib-19.png), ![](./Images/ib-20.png)
 ---
 ## 5.	Creating a building using basic modelling tools in Blender
-In this chapter, you will use the output blender file from the QGIS to Blender tutorial and use that founda-tion to create a building. You are expected to use the methods discussed in the previous two tutorials to do this. This chapter will not be a step-by-step tutorial, instead I implore you to be creative and experi-ment with modelling the building. If you are stuck, look at this chapter as a guide and use it as inspira-tion.
+In this chapter, you will use the output blender file from the [QGIS to Blender tutorial](./Assignment%20I.md#QGIS-to-Blender) and use that founda-tion to create a building. You are expected to use the methods discussed in the previous two tutorials to do this. This chapter will not be a step-by-step tutorial, instead I implore you to be creative and experi-ment with modelling the building. If you are stuck, look at this chapter as a guide and use it as inspira-tion.
 1.	Since the building is now 2D, you first want to add height to the building. So, select the building object, enter edit mode, select all faces, and extrude it up. You can use the extrude settings to precisely decide on the height of a floor since it is easiest to do this for each floor. So, if you want a floor to be 4 meters high, you set the Move Z to (-)4. Extrude it by 4 meters for as many floors as you want. 
 
     ![](./Images/ib-21.png)
