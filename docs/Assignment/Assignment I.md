@@ -60,7 +60,7 @@ The data type for this file is GeoTiff and each pixel is 0.5m. Since the resolut
 The terrain of the university campus is now complete, in this chapter the data of the existing buildings will be gathered.
 1.	Go to https://3dbag.nl/en/download and click the button “Pick a tile”
 
-2.	Move the map to the university campus of Enschede and you will see that the building data for the area of the campus that is in the previously created terrain, requires 3 tiles. These tiles are 2345, 5106 and 5107. For each of  these tiles, the next step has to be made.
+2.	Move the map to the university campus of Enschede, at the east of the Netherlands, and you will see that the building data for the area of the campus that is in the previously created terrain, requires more than one tile. Select each tile that you want to download. The image below shows the selection of 3 tiles on a previous release of 3DBAG. The ID of the tiles might be different in the current version.
 
     ![Select tiles 3D BAG](./Images/Assignment%201-3.png)
 
