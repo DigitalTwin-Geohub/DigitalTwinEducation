@@ -1,0 +1,3769 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Assignment%20I/">
+      
+      
+        <link rel="next" href="../FINAL%20Assignment/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../images/6Logo Simplified100px.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Tutorial 3 - Digital Twin Education</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#bibtex" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Digital Twin Education" class="md-header__button md-logo" aria-label="Digital Twin Education" data-md-component="logo">
+      
+  <img src="../../images/6Logo Simplified500px.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Digital Twin Education
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Tutorial 3
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="grey" data-md-color-accent="indigowhere-py"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/DigitalTwin-Geohub/DigitalTwinEducation" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Digital Twin Education - University of Twente
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Preparation/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Preparation for Course
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Modules/Module%20I/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Modules
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../Intro%20to%20blender/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Tutorials
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../FINAL%20Assignment/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Final Assignment
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../license" class="md-tabs__link">
+          
+  
+  
+    
+  
+  About
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Digital Twin Education" class="md-nav__button md-logo" aria-label="Digital Twin Education" data-md-component="logo">
+      
+  <img src="../../images/6Logo Simplified500px.png" alt="logo">
+
+    </a>
+    Digital Twin Education
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/DigitalTwin-Geohub/DigitalTwinEducation" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Digital Twin Education - University of Twente
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Preparation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preparation for Course
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modules
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Modules
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modules/Module%20I/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Module I
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modules/Module%20II/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Module II
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modules/Module%20III/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Module III
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modules/Module%20IV/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Module IV
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modules/Module%20V/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Module V
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutorials
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tutorials
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Intro%20to%20blender/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutorial 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Assignment%20I/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutorial 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutorial 3
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutorial 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#bibtex" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BibTeX
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-will-need" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What You Will Need
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What You Will Need">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-computer-with-access-to-the-internet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A computer with access to the internet.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arcgis-pro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ArcGIS Pro:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arcgis-pro-license" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ArcGIS Pro License:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#physiological-equivalent-temperature-pet-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Physiological Equivalent Temperature (PET) Algorithm:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gis-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GIS Data:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-2-understanding-the-science-behind-pet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 2: Understanding the Science Behind PET
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 2: Understanding the Science Behind PET">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#chapter-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chapter 2
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#section-1-exploring-data-sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 1: Exploring Data Sources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 1: Exploring Data Sources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-meteorological-stations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Meteorological Stations:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-remote-sensing-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Remote Sensing Data:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-trees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Trees
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-water-bodies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Water Bodies
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Water Bodies">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#export-as-geojson" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Export as GeoJSON:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#in-arcgis-pro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        In ArcGIS Pro:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-building-footprints" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Building Footprints
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-digital-surface-model-dsm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Digital Surface Model (DSM)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-digital-terrain-model-dtm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Digital Terrain Model (DTM):
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-digital-elevation-model-dem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Digital Elevation Model (DEM):
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-solar-angle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Solar Angle
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-wind-speed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Wind Speed
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11. Wind Speed">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-wind-speed-point-shapefile" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1. Wind Speed (Point Shapefile):
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-wind-speed-raster" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2. Wind Speed (Raster):
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-2-setting-up-your-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 2: Setting Up Your Project
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 2: Setting Up Your Project">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-create-a-new-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Create a New Project:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-set-the-coordinate-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Set the Coordinate System:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-add-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Add Data:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-examine-data-attributes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Examine Data Attributes:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chapter-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chapter 3
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#section-1-introduction-to-geoprocessing-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 1: Introduction to Geoprocessing Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 1: Introduction to Geoprocessing Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#section-2-pet-calculation-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 2: PET Calculation Workflow
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 2: PET Calculation Workflow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-climate-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Climate Variables:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-deriving-pet-inputs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Deriving PET Inputs:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#in-model-builder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        In Model Builder
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-how-to-add-each-different-pet-input-to-your-model-builder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. How to add each different PET input to your Model Builder:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. How to add each different PET input to your Model Builder:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-cell-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        a. Cell Size:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#b-analysis-extent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        b. Analysis Extent:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c-ndvi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        c. NDVI:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#d-solar-angle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        d. Solar Angle :
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#e-buildings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        e. Buildings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sky-view-factor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sky View Factor
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sky View Factor">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-convert-the-building-heights-to-raster" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1. Convert the building heights to raster:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-creating-an-updated-building-raster" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2. Creating an updated building raster:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 2. Creating an updated building raster:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-6-calculate-the-sky-view-factor-svf" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 6 Calculate the Sky View Factor (SVF):
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bowen-ratio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BOWEN RATIO:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="BOWEN RATIO:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-building-effect-on-bowen-ratio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A. BUILDING EFFECT ON BOWEN RATIO
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A. BUILDING EFFECT ON BOWEN RATIO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-assign-bowen-to-buildings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1. Assign Bowen to Buildings:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-convert-buildings-to-raster-bowen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2. Convert Buildings to Raster - Bowen:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-reclassify-ndvi-to-bowen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3. Reclassify NDVI to Bowen:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-converting-ndvi-values-to-proper-bowen-classification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4. Converting NDVI values to proper Bowen classification:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-5-buildings-to-bowen-conditional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5. Buildings to Bowen Conditional:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#b-grass-effect-on-bowen-ratio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        B. GRASS EFFECT ON BOWEN RATIO
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="B. GRASS EFFECT ON BOWEN RATIO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-assign-bowen-value-to-grass" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1. Assign Bowen value to Grass:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-convert-grass-to-raster" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2. Convert Grass to Raster:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-joining-grass-and-buildings-bowen-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3. Joining Grass and Buildings Bowen Values:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c-water-effect-on-bowen-ratio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        C. WATER EFFECT ON BOWEN RATIO
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="C. WATER EFFECT ON BOWEN RATIO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-add-a-missing-field-to-the-water-bodies-shapefile" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1. Add a missing field to the Water Bodies Shapefile:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-assign-bowen-value-to-water" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2. Assign Bowen value to Water:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 2. Assign Bowen value to Water:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-3-convert-water-bodies-to-raster" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3. Convert Water Bodies to Raster:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-calculate-bowen-ratio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4. Calculate Bowen Ratio:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wet-bulb-temperature" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        WET BULB TEMPERATURE:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="WET BULB TEMPERATURE:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-add-a-relative-humidity-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1. Add a Relative Humidity value:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-add-the-default-value-to-relative-humidity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2. Add the default value to Relative Humidity:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-add-a-temperature-in-c" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3. Add a Temperature in C:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-add-the-default-value-to-relative-humidity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4. Add the default value to Relative Humidity:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-5-calculate-the-wet-bulb-temperature" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5. Calculate the Wet Bulb Temperature:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculate-the-pet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CALCULATE THE PET:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CALCULATE THE PET:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-add-a-solar-irradiation-value-in-wm2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1. Add a Solar Irradiation value in W/m2:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-add-the-default-value-to-solar-irradiation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2. Add the default value to Solar Irradiation:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-add-the-wind-speed-raster" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3. Add the Wind Speed raster:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-calculate-the-pet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4. Calculate the PET:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#run-the-pet-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RUN THE PET MODEL:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../FINAL%20Assignment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Final Assignment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    About
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    License
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#bibtex" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BibTeX
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-you-will-need" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What You Will Need
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What You Will Need">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-computer-with-access-to-the-internet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A computer with access to the internet.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arcgis-pro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ArcGIS Pro:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arcgis-pro-license" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ArcGIS Pro License:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#physiological-equivalent-temperature-pet-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Physiological Equivalent Temperature (PET) Algorithm:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gis-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GIS Data:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#section-2-understanding-the-science-behind-pet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 2: Understanding the Science Behind PET
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 2: Understanding the Science Behind PET">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#chapter-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chapter 2
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#section-1-exploring-data-sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 1: Exploring Data Sources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 1: Exploring Data Sources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-meteorological-stations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Meteorological Stations:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-remote-sensing-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Remote Sensing Data:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-trees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Trees
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-water-bodies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Water Bodies
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Water Bodies">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#export-as-geojson" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Export as GeoJSON:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#in-arcgis-pro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        In ArcGIS Pro:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-building-footprints" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Building Footprints
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-digital-surface-model-dsm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Digital Surface Model (DSM)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-digital-terrain-model-dtm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Digital Terrain Model (DTM):
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-digital-elevation-model-dem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Digital Elevation Model (DEM):
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-solar-angle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Solar Angle
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#11-wind-speed" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Wind Speed
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11. Wind Speed">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-wind-speed-point-shapefile" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1. Wind Speed (Point Shapefile):
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-wind-speed-raster" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2. Wind Speed (Raster):
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#section-2-setting-up-your-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 2: Setting Up Your Project
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 2: Setting Up Your Project">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-create-a-new-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Create a New Project:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-set-the-coordinate-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Set the Coordinate System:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-add-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Add Data:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-examine-data-attributes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Examine Data Attributes:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chapter-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chapter 3
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#section-1-introduction-to-geoprocessing-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 1: Introduction to Geoprocessing Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 1: Introduction to Geoprocessing Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#section-2-pet-calculation-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Section 2: PET Calculation Workflow
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Section 2: PET Calculation Workflow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-climate-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Climate Variables:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-deriving-pet-inputs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Deriving PET Inputs:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#in-model-builder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        In Model Builder
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-how-to-add-each-different-pet-input-to-your-model-builder" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. How to add each different PET input to your Model Builder:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. How to add each different PET input to your Model Builder:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-cell-size" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        a. Cell Size:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#b-analysis-extent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        b. Analysis Extent:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c-ndvi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        c. NDVI:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#d-solar-angle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        d. Solar Angle :
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#e-buildings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        e. Buildings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sky-view-factor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sky View Factor
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sky View Factor">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-convert-the-building-heights-to-raster" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1. Convert the building heights to raster:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-creating-an-updated-building-raster" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2. Creating an updated building raster:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 2. Creating an updated building raster:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-6-calculate-the-sky-view-factor-svf" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 6 Calculate the Sky View Factor (SVF):
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bowen-ratio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BOWEN RATIO:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="BOWEN RATIO:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-building-effect-on-bowen-ratio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A. BUILDING EFFECT ON BOWEN RATIO
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A. BUILDING EFFECT ON BOWEN RATIO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-assign-bowen-to-buildings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1. Assign Bowen to Buildings:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-convert-buildings-to-raster-bowen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2. Convert Buildings to Raster - Bowen:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-reclassify-ndvi-to-bowen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3. Reclassify NDVI to Bowen:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-converting-ndvi-values-to-proper-bowen-classification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4. Converting NDVI values to proper Bowen classification:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-5-buildings-to-bowen-conditional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5. Buildings to Bowen Conditional:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#b-grass-effect-on-bowen-ratio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        B. GRASS EFFECT ON BOWEN RATIO
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="B. GRASS EFFECT ON BOWEN RATIO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-assign-bowen-value-to-grass" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1. Assign Bowen value to Grass:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-convert-grass-to-raster" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2. Convert Grass to Raster:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-joining-grass-and-buildings-bowen-values" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3. Joining Grass and Buildings Bowen Values:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c-water-effect-on-bowen-ratio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        C. WATER EFFECT ON BOWEN RATIO
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="C. WATER EFFECT ON BOWEN RATIO">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-add-a-missing-field-to-the-water-bodies-shapefile" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1. Add a missing field to the Water Bodies Shapefile:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-assign-bowen-value-to-water" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2. Assign Bowen value to Water:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 2. Assign Bowen value to Water:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-3-convert-water-bodies-to-raster" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3. Convert Water Bodies to Raster:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-calculate-bowen-ratio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4. Calculate Bowen Ratio:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wet-bulb-temperature" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        WET BULB TEMPERATURE:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="WET BULB TEMPERATURE:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-add-a-relative-humidity-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1. Add a Relative Humidity value:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-add-the-default-value-to-relative-humidity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2. Add the default value to Relative Humidity:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-add-a-temperature-in-c" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3. Add a Temperature in C:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-add-the-default-value-to-relative-humidity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4. Add the default value to Relative Humidity:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-5-calculate-the-wet-bulb-temperature" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5. Calculate the Wet Bulb Temperature:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculate-the-pet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CALCULATE THE PET:
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CALCULATE THE PET:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-add-a-solar-irradiation-value-in-wm2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1. Add a Solar Irradiation value in W/m2:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-add-the-default-value-to-solar-irradiation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2. Add the default value to Solar Irradiation:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-add-the-wind-speed-raster" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3. Add the Wind Speed raster:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-calculate-the-pet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4. Calculate the PET:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#run-the-pet-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RUN THE PET MODEL:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../Intro%20to%20blender/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Tutorials
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<p style="text-align: right" ><img src="../../images/ut-itc-logo-rgb.png" width="300"></p>
+
+<p>This tutorial is an adaptation of the work published in by <a href="https://isprs-annals.copernicus.org/articles/X-4-2024/67/2024/">Cárdenas-León et al.</a> and the <a href="https://github.com/ivan-cardenas/PET-DigitalTwins/tree/main">Digital Twins for PET Calculation Tutorial</a></p>
+<p><em>Online Tool</em>
+You can access the working online tool <a href="https://utwente.maps.arcgis.com/apps/webappviewer/index.html?id=ca1f19d5ecfb4820a5d1c0ae31d61563">here</a> </p>
+<p><img width="959" alt="image" src="https://github.com/ivan-cardenas/PET-DigitalTwins/assets/21996448/24393bdf-caa6-4c65-b1ae-90545acfdced"></p>
+<p>We also provide with a <a href="https://youtu.be/WjoYRjI_w9w">video</a> on how to use this online tool. </p>
+<hr />
+<p>Please cite this work</p>
+<h3 id="bibtex">BibTeX</h3>
+<p>.
+<div class="highlight"><pre><span></span><code>@misc{cardenas_ivan_l_2023_8306385,
+  author       = {Cárdenas, Ivan L. and
+                  Morales, Luis Rodrigoandrés and
+                  Koeva, Mila and
+                  Atun, Funda and
+                  Pfeffer, Karin},
+  title        = {{Digital Twins for Physiological Equivalent 
+                   Temperature Calculation Guide}},
+  month        = aug,
+  year         = 2023,
+  publisher    = {Zenodo},
+  version      = {v1.0},
+  doi          = {10.5281/zenodo.8306456},
+  url          = {https://doi.org/10.5281/zenodo.8306456}
+}
+</code></pre></div></p>
+<hr />
+<h2 id="introduction">Introduction</h2>
+<p>As urbanization and climate change reshape our environments, the need to assess and improve thermal comfort has become increasingly urgent. Physiological Equivalent Temperature (PET) is a valuable biometeorological metric that quantifies the combined effects of air temperature, humidity, wind speed, and solar radiation on human thermal perception. This integrated approach helps urban planners, architects, and environmental scientists create spaces that enhance human comfort and well-being.</p>
+<p>This guide is designed to help users—whether beginners or seasoned professionals—leverage ArcGIS Pro and Python for accurate PET calculations. It covers the theoretical background of PET, explains its importance, and provides practical, step-by-step instructions for generating PET maps and analyses using these tools.</p>
+<p>The following sections explore PET's theoretical basis and its role in understanding human-environment interactions. We also introduce the fundamentals of ArcGIS Pro, focusing on its geospatial data capabilities and spatial analysis tools. By combining theory with hands-on applications, this guide equips researchers, practitioners, and students with the skills to compute PET and design thermally comfortable urban environments effectively.</p>
+<h2 id="what-you-will-need">What You Will Need</h2>
+<p>Before getting started with the guide, make sure you have the following:</p>
+<h3 id="a-computer-with-access-to-the-internet">A computer with access to the internet.</h3>
+<h3 id="arcgis-pro">ArcGIS Pro:</h3>
+<p>Ensure that you have ArcGIS Pro installed on your computer. </p>
+<h3 id="arcgis-pro-license">ArcGIS Pro License:</h3>
+<p>You will need a valid license to use ArcGIS Pro. If you don't have a license, you can obtain one through Esri or check if you have access to ArcGIS Pro through your organization or educational institution.</p>
+<h3 id="physiological-equivalent-temperature-pet-algorithm">Physiological Equivalent Temperature (PET) Algorithm:</h3>
+<p>Understand the concept and principles behind the Physiological Equivalent Temperature (PET) calculation. Familiarize yourself with the algorithm or method used to calculate PET in ArcGIS Pro. You can check <a href="">Section 2</a>: Understanding the Science Behind PET.</p>
+<h3 id="gis-data">GIS Data:</h3>
+<p>To perform the PET calculation, you will need the necessary GIS data layers. These may include a digital elevation model (DEM), land cover data, meteorological data (such as temperature, humidity, wind speed), and any other relevant spatial data required for the analysis. Ensure that you have the required data or access to it. You can see a detailed list and how to obtain each individual data in <a href="">Chapter 2: Data Sources and Project Preparation for PET Calculation</a></p>
+<h1 id="section-2-understanding-the-science-behind-pet">Section 2: Understanding the Science Behind PET</h1>
+<p>Understanding PET requires some basic knowledge of the science behind it. Don't worry—we’ll break down the concepts so they’re easy to follow. Below are the key terms and ideas you'll encounter:</p>
+<p>What is Physiological Equivalent Temperature (PET)?
+PET is a numerical value that combines variables like temperature, humidity, wind speed, and solar radiation to estimate perceived thermal comfort. It helps us understand how weather conditions affect the human body.</p>
+<p>The PET model was developed to standardize urban heat maps, especially for climate stress tests in places like the Netherlands. These tests evaluate the effects of heat stress on infrastructure and society. Before PET, heat maps varied widely due to inconsistent methods and metrics. PET now provides a consistent way to identify hotspots and inform climate adaptation strategies.</p>
+<p>Using meteorological models and GIS tools, PET integrates data such as weather, urban layouts, and the urban heat island effect to produce detailed heat maps. It accounts for variables beyond air temperature, such as wind, humidity, and radiation, which significantly impact how humans experience heat. PET has been validated in studies and includes projections for future climate scenarios, making it a powerful tool for urban planning and decision-making.</p>
+<p>The formula proposed by Koopmans et al. is:</p>
+<p>𝑃𝐸𝑇𝑠𝑢𝑛 = −13.26 + 1.25𝑇𝑎 + 0.011𝑄𝑠 − 3.37 𝑙𝑛(𝑢1.2 ) + 0.078𝑇𝑤 + 0.0055𝑄𝑠 𝑙𝑛(𝑢1.2) +5.56 𝑠𝑖𝑛(𝜑) − 0.0103𝑄𝑠 𝑙𝑛(𝑢1.2 ) 𝑠𝑖𝑛(𝜑) + 0.54Bb + 1.94𝑆𝑣f</p>
+<p>Key Variables in PET
+1. Temperature (Ta)
+Measures how hot or cold the air is, typically in degrees Celsius (°C). Urban air temperature plays a significant role in thermal comfort.</p>
+<ol>
+<li>
+<p>Humidity (φ)
+Represents the amount of moisture in the air. High humidity makes it feel hotter, while low humidity makes it feel cooler.</p>
+</li>
+<li>
+<p>Wind Speed (u₁.₂)
+Measures how fast air is moving, usually expressed in meters per second (m/s). Wind speed affects how heat dissipates from the body.</p>
+</li>
+<li>
+<p>Solar Radiation (Qs)
+Refers to the energy emitted by the Sun. This influences temperature, weather patterns, and thermal comfort.</p>
+</li>
+<li>
+<p>Solar Elevation Angle (φ)
+Indicates the Sun's height above the horizon, changing throughout the day and year. It affects the intensity of solar radiation.</p>
+</li>
+<li>
+<p>Sky View Factor (Svf)
+Measures how much of the sky is visible from a given point. Areas with more visible sky (Svf closer to 1) receive more direct sunlight, while obstructed areas (Svf closer to 0) stay cooler.</p>
+</li>
+<li>
+<p>Bowen Ratio (Bb)
+Describes the balance between heat transferred through warming air (sensible heat) and evaporating moisture (latent heat). A high ratio means more heat is warming the air directly.</p>
+</li>
+<li>
+<p>Wet Bulb Temperature (Tw)
+The lowest temperature achievable through evaporative cooling, measured using a wet cloth on a thermometer. It reflects the cooling effect of evaporation on human skin.</p>
+</li>
+<li>
+<p>NDVI (Normalized Difference Vegetation Index)
+A measure of vegetation health derived from satellite data. Healthy vegetation absorbs red light and reflects near-infrared light, helping reduce local temperatures.</p>
+</li>
+</ol>
+<h2 id="chapter-2">Chapter 2</h2>
+<h3 id="section-1-exploring-data-sources">Section 1: Exploring Data Sources</h3>
+<p>To calculate PET accurately, we need reliable data on temperature, humidity, and land cover. Luckily, there are various sources available that provide such information. According to the proposed method by Koopmans et al. the warmest day of the past five years should be considered to gather all the necessary data. </p>
+<p>After doing some research in the area of <strong>Enschede, Netherlands</strong> it was determined that the warmest day was July 27, 2019. Here's an overview of some commonly used data sources:</p>
+<h4 id="1-meteorological-stations">1. Meteorological Stations:</h4>
+<p>Local weather stations provide temperature and humidity data. You can usually obtain this data from meteorological agencies or research institutions. Make sure to gather data for the desired study period and location.</p>
+<p>a.   In the Netherlands the Dutch Weather data from KNMI is available and accessible online as an open source data.</p>
+<p>b.   Knmy is a Python package for downloading and processing weather data from the automated weather stations of the Dutch Meteorological Institute (KNMI). Documentation of the used API can be found here (only in Dutch). https://knmy.readthedocs.io/en/latest/</p>
+<p>c.   For a list of the available selectable parameters and weather stations in the Netherlands to be used in the knmy wrapper you can also visit https://daggegevens.knmi.nl/.</p>
+<p>d.  The closest Station in Enschede is the number 290: Twente.</p>
+<p>e.  In order to find the warmest value of the day, we need to specify that we will obtain the values by hour (‘hourly’) and a range within the selected day. </p>
+<p>f.  Values like Temperature, Humidity, Solar Radiation were obtained using <a href="../Assets/Meteorological.py">this method</a>.</p>
+<h4 id="2-remote-sensing-data">2. Remote Sensing Data:</h4>
+<p>a.  The NDVI raster was obtained using a google earth engine code for the area of the city of Enschede.</p>
+<p>b.  After identifying the date with the highest temperature in the last 5 years, we will obtain the median NDVI values for the months where the highest temperature was recorded.</p>
+<p>c.  In the website https://earthengine.google.com/ you can access the Google Earth Engine editor by clicking the Platform button on the top of the site and clicking on Code Editor.</p>
+<p>d.   Log-in with a compatible account (any google account can be used).</p>
+<p>e.  Paste the <a href="../Assets/NDVI.js">following code</a> in the editor.</p>
+<p>f.  Add a polygon geometry on the map that contains the area that you want to obtain the NDVI from by selecting the rectangular geometry tool .</p>
+<p>g.  The default name of this area will be called ‘geometry’, use this name and replace it instead of the text “path to asset” (the name geometry goes without any additional ‘ or “).</p>
+<p>h.  Execute the code by clicking the ‘Run’ button on the top menu of the editor.</p>
+<p>i.  This will generate a new tasks in the ‘Tasks’ tab beside the editor. This task will be named NDVI, when you press it, it will prompt you to provide basic information to generate the NDVI and the storage location.</p>
+<p>j.  Fill in the CRS (Coordinate Reference System) in which you want the output to be generated (in our case as we were working in The Netherlands, we choose EPSG:28992).</p>
+<p>k.  Save the file as a Geo_TIFF in order to retain the coordinate system data.</p>
+<hr />
+<p>Now you have your own NDVI for your study area!</p>
+<h4 id="4-trees">4. Trees</h4>
+<p>a.  In our case, we had access to the tree shapes files from the Municipality of Enschede, this files are a bit more accurate but  not public. You can still find tree shapefiles by downloading OpenStreetMap data. Visit https://overpass-turbo.eu/ and navigate to the city area you are interested in.</p>
+<p>b.  Using the query wizard write "natural=tree" to obtain the trees in the city, then run the query and download the result either as a geojson file.</p>
+<p>c.  Once you have your file, you can open QGIS and import it as a vector layer. To do this you can simply drag and drop the file into the QGIS interface.</p>
+<p>d. The tree layer you downloaded is configured in Geographical coordinate system (EPSG:4326). So we need to change it to the coordinate system of our study area (EPSG:28992).</p>
+<p>e.  You can do this by right-clicking on the layer and select "Export" --&gt; "Save feature as", change the CRS to EPSG:28992 and save the layer as a new file. Preferebly save it as a new shapefile.</p>
+<h4 id="5-water-bodies">5. Water Bodies</h4>
+<p>For this you can use an <a href="../Assets/WaterBodies.sql">overpass-turbo code</a> to obtain the Water Bodies OSM polygon shapefile inside the city of Enschede. </p>
+<p>This code is written in Overpass QL, which is used with the Overpass API for querying OpenStreetMap data. To run this code and obtain the result, you can use the Overpass Turbo web application.</p>
+<p>a. Visit the Overpass Turbo website: https://overpass-turbo.eu/ </p>
+<p>b.  Copy the code into the text editor on the left side of the Overpass Turbo interface.</p>
+<p>c.  You can choose to edit the geocodeArea to the name of the city you are interested in getting the data from. (In other words, this is how you change the city you want to search inside of).</p>
+<p>d.  Click the "Run" button (or press Ctrl+Enter) to execute the query.</p>
+<p>e.  The results will be displayed on the map on the right side of the interface, and a list of elements will be shown below the text editor.</p>
+<p>To use the result as a layer in ArcGIS Pro, you can export the data from Overpass Turbo and import it into ArcGIS Pro using one of the following methods:</p>
+<h5 id="export-as-geojson">Export as GeoJSON:</h5>
+<p>a.  In Overpass Turbo, click the "Export" button located above the map.
+b.  Select "GeoJSON" as the export format.
+c.  Save the GeoJSON file to your local drive.</p>
+<h5 id="in-arcgis-pro">In ArcGIS Pro:</h5>
+<p>a.  Open ArcGIS Pro and create a new project or open an existing one.
+b.  In the Catalog pane, navigate to the location where you saved the exported GeoJSON file.
+c.  Right-click on the folder or geodatabase where you want to import the data and select "Import" &gt; "File Geodatabase" or "Feature Class."
+d.  Follow the prompts to import the GeoJSON file into ArcGIS Pro. </p>
+<h4 id="6-building-footprints">6. Building Footprints</h4>
+<p>a.  Through the National Provision for Key Register Addresses and Buildings. You can obtain the building footprints for all of The Netherlands. The BAG 2.0 Extract contains the Basisregistratie Adressen en Gebouwen (BAG) data that is available free of charge. On the 8th day of every month, a new Extract with the current data is created</p>
+<p>b.  You can download the files from the open website https://www.kadaster.nl/-/gratis-download-bag-extract these are way easier to download. </p>
+<h4 id="7-digital-surface-model-dsm">7. Digital Surface Model (DSM)</h4>
+<p>The DSM represents the Earth's surface including all above-ground features like buildings, trees, and other structures. It captures the elevations of these features, resulting in a surface that includes both the bare ground and the objects on it.</p>
+<p>The AHN4 0.5 meter raw grid (DSM) is intended as a raw file, where both ground level and non-ground level objects (trees, buildings, bridges and other objects) have been resampled from the point cloud into a 0.5 meter grid. No further edits have been made. For the Netherlands access the  Actueel Hoogtebestand Nederland 4  (AHN 4) data repository where the Digital Surface Model (DSM) and Digital Terrain Model (DTM)  files for your study area are available: 
+https://www.arcgis.com/apps/Embed/index.html?appid=73433bc06f7640949f32e4f8e3842e7a </p>
+<p>Locate and download the DSM files for your desired study area in a suitable format. The DSM is available at a scale resolution of 0.5m and 5m. Be careful, as the lower the number in the resolution the bigger the file will be when you download it, and the longer it will take to process once you use it later on. If you consider you computer is not fast enough try downloading the 5m resolution instead.  Make sure the files cover the same spatial extent as the DTM.</p>
+<h4 id="8-digital-terrain-model-dtm">8. Digital Terrain Model (DTM):</h4>
+<p>The DTM represents the bare ground surface without any above-ground features. It eliminates the heights of objects like buildings and trees, focusing solely on the natural topography of the terrain.</p>
+<p>The AHN4 0.5 meter ground level grid (DTM) is intended as a ground level file, with all non-ground level objects (trees, buildings, bridges and other objects) removed from the point cloud. For the Netherlands, access the  Actueel Hoogtebestand Nederland 4  (AHN 4) data repository where the Digital Terrain Model (DTM)  files for your study area are available: 
+https://www.arcgis.com/apps/Embed/index.html?appid=73433bc06f7640949f32e4f8e3842e7a </p>
+<p>Locate and download the DTM files for your desired study area in a suitable format. DTM is available at a scale resolution of 0.5m and 5m. Be careful, as the lower the number in the resolution the bigger the file will be when you download it, and the longer it will take to process once you use it later on. If you consider you computer is not fast enough try downloading the 5m resolution instead. Make sure the files you download cover the same spatial extent as the DSM .</p>
+<h4 id="9-digital-elevation-model-dem">9. Digital Elevation Model (DEM):</h4>
+<p>A Digital Elevation Model (DEM) is a digital representation of the Earth's surface, which provides information about the elevation or height of the terrain at different locations. It is a widely used dataset in various fields, including geospatial analysis, hydrology, and terrain visualization. By subtracting the DTM from the DSM, we obtain the DEM, which represents the bare ground elevation at each location. This process helps in removing the influence of above-ground features and isolating the terrain's natural elevation. 
+So, now that you have collected the DSM and the DTM raster files, you will be able to use them pretty early in the data collecting phase. Here is a step-by-step guide on how to obtain a Digital Elevation Model (DEM) using the Digital Surface Model (DSM) and the Digital Terrain Model (DTM) in ArcGIS Pro using the Raster Calculator:</p>
+<p>a.  Start ArcGIS Pro and open your project.</p>
+<p>b.  If you haven’t done it already, add both the DSM and DTM rasters to your project by navigating to the "Catalog" pane, locating the folder containing the rasters, and dragging them into your map or right-clicking and selecting "Add to Current Map."</p>
+<p>c.  Once the DSM and DTM rasters are added, navigate to the "Analysis" tab in the top menu and click on "Tools" to open the Geoprocessing pane.</p>
+<p>d.  In the Geoprocessing pane, type "Raster Calculator" in the search box to locate the "Raster Calculator" tool. Click on it to open the tool.</p>
+<p>e.  In the Raster Calculator tool, you'll see two input boxes. In the first input box, enter the DSM raster name or drag and drop it from the "Catalog" pane. </p>
+<p>f.  In the second input box, enter the DTM raster name or drag and drop it from the "Catalog" pane.</p>
+<p>g.  To perform the calculation, subtract the DTM from the DSM. You can do this by typing the following expression in the Raster Calculator tool:  DSM - DTM</p>
+<p>h.  Choose a destination folder and specify a name for the output raster. You can do this by clicking on the "Browse" button next to the "Output raster" parameter and navigating to the desired location.</p>
+<p>i.  Click on the "Run" button to execute the Raster Calculator tool.</p>
+<p>j.  Once the tool completes, the resulting DEM raster will be saved in the specified output location. You can add this DEM raster to your map by dragging and dropping it from the "Catalog" pane or by right-clicking on the map and selecting "Add Data."</p>
+<h4 id="10-solar-angle">10. Solar Angle</h4>
+<p><a href="../Assets/SolarAngle.py">This code</a> has to be added into ArcGIS PRO as a toolbox that will accept inputs. This inputs will let the code work and you will have a nice tool to load every time you need to obtain this value. This tool will also be useful later as it will be possible to add it into a model builder when we use all the values to calculate the PET.</p>
+<p>Arcpy code to be loaded in a compatible environment like in an ArcGIS PRO toolbox. Here is how to add the code to a toolbox in ArcGIS Pro and configure the necessary parameters:</p>
+<p>a.  Open ArcGIS Pro and create a new project or open an existing one.</p>
+<p>b.  In the Catalog pane, right-click on "Toolboxes" and select "Add Toolbox". Give the toolbox a name and save it in a desired location.</p>
+<p>c.  Right-click on the newly created toolbox and select "Add Script".</p>
+<p>d.  In the "Add Script" window, provide a name for the script and select the Python script file containing the code you provided.</p>
+<p>e.  Click "Next" to proceed to the "Script Properties" window.</p>
+<p>f.  In the "Script Properties" window, you can configure various settings for the script:</p>
+<ul>
+<li><strong>Label</strong>: Provide a label for the script.</li>
+<li><strong>Description</strong>: Enter a description that explains the functionality of the script.</li>
+<li><strong>Script File</strong>: Specify the path to the Python script file containing the code.</li>
+<li><strong>Toolbox Alias</strong>: Optionally, you can provide an alias for the toolbox.</li>
+</ul>
+<p>g.  In the "Parameters" tab, you can add the necessary input parameters:</p>
+<ul>
+<li>Click on the "Add" button to add a new parameter.</li>
+<li>Specify a name for the parameter.</li>
+<li>Choose the appropriate data type for the parameter (e.g., Date, Double, String).</li>
+<li>Optionally, you can provide a label, direction, and default value for the parameter.</li>
+<li>Repeat these steps to add all the required parameters (<code>when_full</code>, <code>latitude</code>, <code>longitude</code>, <code>solar_angle</code>).</li>
+</ul>
+<p>h.  After adding the parameters, you can configure additional settings as needed, such as parameter validation, dependency between parameters, and tooltips.</p>
+<p>i.  Click "Finish" to add the script to the toolbox.</p>
+<p>j.  You can now find the script tool under the toolbox in the Catalog pane. Double-click on the script tool to open the tool dialog.</p>
+<p>k.  In the tool dialog, you can enter values for the input parameters (<code>when_full</code>, <code>latitude</code>, <code>longitude</code>, <code>solar_angle</code>).</p>
+<p>l.  Click "Run" to execute the script with the provided input values.</p>
+<h4 id="11-wind-speed">11. Wind Speed</h4>
+<p>In order to obtain this value, the preferred way would be to have some sensors around the city that are located at a proper height (the wind speed on top of buildings is not the same as the one at street level). As this data was not available neither in raster nor shapefile format at the moment we worked in the project, we had to use a simulation software in order to obtain an approximation on how the wind was behaving on the day of the warmest temperature in our study area. If you happen to have access this data from measuring sensors you can also opt to generate a raster through the interpolation of the sensors data (the interpolation process will be also shown in these steps).</p>
+<p>WindNinja is a reliable simulation tool for wind that uses computational fluid dynamics (CFD) to model and predict wind flow patterns. It was developed by the Missoula Fire Sciences Laboratory, which is part of the Rocky Mountain Research Station, U.S. Forest Service.</p>
+<p>WindNinja is trusted by researchers, scientists, and professionals in various fields, including wildfire management, emergency response planning, and wind energy assessment. It incorporates high-resolution terrain data, atmospheric boundary layer physics, and meteorological input to generate accurate wind simulations.</p>
+<p>By considering factors such as topography, land cover, and weather conditions, WindNinja can estimate wind speed, direction, and turbulence at different heights above the ground. This information is valuable for assessing wind patterns, understanding airflow behaviour, and making informed decisions related to fire behaviour, smoke dispersion, air quality, and wind energy site selection.</p>
+<p>WindNinja's credibility comes from its continuous development, rigorous testing, and validation against field measurements and other established wind models. Its open-source nature allows for community contributions and ongoing improvement, making it a trusted tool for wind modelling and analysis
+Based on the values we got from the meteorological station for wind on the warmest day in Enschede,  we calculated the wind speed at 1.2m from the ground using a 100 azimuthal angle on a specific date (July 27, 2019), if you want to obtain your own value you can try the following steps:</p>
+<h5 id="step-1-wind-speed-point-shapefile">Step 1. Wind Speed (Point Shapefile):</h5>
+<ol>
+<li>
+<p>Download and install WindNinja:  This is a standalone open-source software that can be downloaded from the following website (https://www.firelab.org/project/windninja).</p>
+</li>
+<li>
+<p>Launch WindNinja: Launch the application after installing it.</p>
+</li>
+<li>
+<p>Import terrain data: You need to provide terrain data for the specific location you are interested in. You can import the terrain data in one of the following ways:</p>
+</li>
+<li>
+<p>Load a digital elevation model (DEM) file: You can import a DEM file (e.g., in GeoTIFF format) that covers your study area. (This is the method we used).</p>
+</li>
+<li>
+<p>Use online data sources: WindNinja allows you to fetch terrain data from online sources such as the National Elevation Dataset (NED) or the Shuttle Radar Topography Mission (SRTM).</p>
+</li>
+<li>
+<p>Set the date: In the WindNinja interface, navigate to the "Weather" or "Initialization" tab (depending on the version) and specify the desired date (July 27, 2019) as the simulation date.</p>
+</li>
+<li>
+<p>Define the desired output height: In WindNinja, you can set the output height to 1.2m to obtain the wind speed at that specific height and the speed should be set to m/s. This option is typically found in the “Wind Input" tab.</p>
+</li>
+<li>
+<p>Set the azimuthal angle: you can (and should) also define the azimuthal angle to simulate wind from a specific direction. In this case, set the azimuthal angle to the angle obtained from the meteorological station (for us it was 100 degrees angle) to obtain wind information from that direction. This is also done in the Wind Input tab.</p>
+</li>
+<li>
+<p>Configure the Output parameters: You can turn on the checkbox for the shapefile result. This will allow you to export the result as a .SHP file that you can load in any GIS software. You can use the mesh resolution to try to keep the data as compatible as possible. </p>
+</li>
+<li>
+<p>Run the simulation: Once you have set all the desired parameters, you can go to the “Solve” tab, where you can indicate the folder where you want to save the resulting point feature (.SHP) and the amount of cores you want to use from your computer to process this task (more cores translate into faster calculation times, but this is limited to the hardware of your computer).</p>
+</li>
+<li>
+<p>In the same tab, initiate the simulation by clicking the "Solve" button. WindNinja will perform the calculations and generate the wind results for the specified date, output height, and azimuthal angle. (This could take a long time to process depending on your computer specs and the resolution of the DEM you used as an input. If it takes to long to process you can try generating a DEM with a resolution of 5m instead of 0.5m).</p>
+</li>
+<li>
+<p>Analyse the results: After the simulation completes, WindNinja will generate wind output files containing information such as wind speed, direction, and turbulence. We will use the wind speed attribute to generate our own interpolated wind speed raster.</p>
+</li>
+</ol>
+<h5 id="step-2-wind-speed-raster">Step 2. Wind Speed (Raster):</h5>
+<p>In order to be able to use the wind speed properly in the PET calculation, we will need to convert the point shapefile to a raster. Here are the steps on how you can manage to achieve this:</p>
+<p>a.  Loading Point Shapefile in ArcGIS:
+*   Open ArcGIS and create a new project or open an existing one.</p>
+<ul>
+<li>
+<p>In the Catalog pane, navigate to the location where you have the output point shapefile.</p>
+</li>
+<li>
+<p>Right-click on the folder where you want to add the shapefile and select "Import" -&gt; "Feature Class (single)".</p>
+</li>
+<li>
+<p>In the "Import Feature Class" dialog box, browse and select the point shapefile (.shp) generated by WindNinja.</p>
+</li>
+<li>
+<p>Specify a name and location for the imported feature class, and click "OK" to import the shapefile.</p>
+</li>
+</ul>
+<p>b.  Performing Interpolation in ArcGIS:</p>
+<ul>
+<li>
+<p>With the point shapefile loaded, open the Geoprocessing pane by clicking on the "Analysis" tab and selecting "Tools".</p>
+</li>
+<li>
+<p>In the Geoprocessing pane, search for the "Kriging interpolation" tool</p>
+</li>
+<li>
+<p>Double-click on the tool to open the tool dialog.</p>
+</li>
+<li>
+<p>Select the point shapefile you imported as the input feature class.</p>
+</li>
+<li>
+<p>Choose an appropriate output raster location and specify the desired cell size, power, and search radius parameters according to your requirements.</p>
+</li>
+<li>
+<p>Click "Run" to perform the Kriging interpolation.</p>
+</li>
+<li>
+<p>Once the interpolation is complete, ArcGIS will generate a raster layer with wind speed values based on the input points.</p>
+</li>
+<li>
+<p>You can customize the symbology and further analyze the interpolated raster layer in ArcGIS as per your project needs.</p>
+</li>
+</ul>
+<h3 id="section-2-setting-up-your-project">Section 2: Setting Up Your Project</h3>
+<p>To begin the PET calculation process in ArcGIS Pro, we need to set up our project properly. Here are the essential steps:</p>
+<h4 id="1-create-a-new-project">1. Create a New Project:</h4>
+<p>Open ArcGIS Pro and create a new project. Give it a meaningful name and specify the desired location to save your project files. This ensures that all your work is organized and easily accessible.</p>
+<h4 id="2-set-the-coordinate-system">2. Set the Coordinate System:</h4>
+<p>A coordinate system defines the spatial reference of your data. It ensures that the different layers align correctly in your project. If you're unsure about the coordinate system to use, check the metadata of your data sources or consult any guidelines provided by the data provider. In our case with the information from The Netherlands we used the Amersfoort / RD New (EPSG:28992) Coordinate System.</p>
+<p>To set the coordinate system to Amersfoort / RD New (EPSG:28992) in ArcGIS Pro, follow these steps:</p>
+<p>a.  Open your ArcGIS Pro project or create a new one.</p>
+<p>b.  In the Catalog pane, navigate to the desired map or dataset that you want to assign the coordinate system to.</p>
+<p>c.  Right-click on the map or dataset and select "Properties" from the context menu.</p>
+<p>d.  In the "Layer Properties" dialog box, go to the "Coordinate System" tab.</p>
+<p>e.  Click on the "Select" button next to the "Spatial Reference" field.</p>
+<p>f.  In the "Spatial Reference Properties" dialog box, select "Projected Coordinate Systems" from the left panel.</p>
+<p>g.  Expand the "National Grids" folder.</p>
+<p>h.  Within the "National Grids" folder, scroll down and locate "RD New (EPSG:28992)".</p>
+<p>i.  Select "RD New (EPSG:28992)" and click "OK".</p>
+<p>j.  Back in the "Layer Properties" dialog box, you should see "Amersfoort / RD New" selected as the coordinate system.</p>
+<p>k.  Click "OK" to apply the changes and close the dialog box.</p>
+<p>The coordinate system of the selected map or dataset should now be set to Amersfoort / RD New (EPSG:28992) in your ArcGIS Pro project.</p>
+<h4 id="3-add-data">3. Add Data:</h4>
+<p>Add the necessary data layers to your project. This includes temperature and humidity data, as well as any DSM, DTM files you have obtained. To add data, click on the "Add Data" button in the ArcGIS Pro ribbon and navigate to the location where your data is stored.</p>
+<h4 id="4-examine-data-attributes">4. Examine Data Attributes:</h4>
+<p>Once you've added the data, it's essential to examine the attribute tables associated with each layer. These tables contain valuable information about the variables and their corresponding values. Understanding the data's attributes helps you ensure the accuracy of your calculations.</p>
+<hr />
+<p>With your project set up and data ready, you're all set to begin calculating PET. In Chapter 3, we’ll explore the step-by-step process of using geoprocessing tools in ArcGIS Pro to bring your PET analysis to life. Get ready to dive into the world of spatial analysis and unlock the secrets to optimizing thermal comfort!</p>
+<h2 id="chapter-3">Chapter 3</h2>
+<h3 id="section-1-introduction-to-geoprocessing-tools">Section 1: Introduction to Geoprocessing Tools</h3>
+<p>Geoprocessing tools in ArcGIS Pro are your trusted companions when it comes to performing complex spatial calculations. In this chapter, we'll explore the specific tools required for PET calculation. But before we dive into the fundamentals, let's understand the basics of geoprocessing tools:</p>
+<ol>
+<li>
+<p>Toolboxes: Geoprocessing tools are organized into toolboxes, which are like virtual toolboxes containing a set of related tools. Each toolbox focuses on specific functionality, such as spatial analysis, data conversion, or geocoding. For PET calculation, we'll primarily work with tools in the Spatial Analyst toolbox.</p>
+</li>
+<li>
+<p>Parameters: Geoprocessing tools require certain inputs called parameters to perform their calculations. These parameters include data layers, settings, and other information necessary for the tool to operate correctly. As we go through the process, we'll explain each parameter and how to provide the required inputs.</p>
+</li>
+</ol>
+<h4 id="section-2-pet-calculation-workflow">Section 2: PET Calculation Workflow</h4>
+<p>Now, let's outline the step-by-step workflow for calculating PET using ArcGIS Pro. We'll cover the essential tools and explain their roles in the process. Don't worry if it seems overwhelming at first – we'll break it down into manageable steps:</p>
+<h5 id="1-climate-variables">1.    Climate Variables:</h5>
+<p>The first step is to keep at hand the values of the temperature, humidity, solar radiation, solar angle, wet bulb temperature values that you respectively collected. We'll use the this values directly into the equation later on in our calculation process.</p>
+<hr />
+<h5 id="2-deriving-pet-inputs">2.    Deriving PET Inputs:</h5>
+<p>PET calculation requires additional inputs, such as wind speed and solar radiation. We'll explain how to derive these inputs using various geoprocessing tools, such as the Calculate Statistics tool and the Area Solar Radiation tool.</p>
+<p>a.  Wind Speed</p>
+<p>b.  Bowen Ratio: NDVI is categorized, water bodies, grass, buildings and trees are later added to the categorized NDVI raster.</p>
+<p>c.  DEM</p>
+<p>d.  Sky View Factor</p>
+<p>In order to do this you will need to know how to work with the Model Builder Tool. It is very helpful as it is a visual programming tool in ArcGIS Pro that allows you to create, customize, and automate geoprocessing workflows. First, let’s get you familiarized with some basic concepts in Model Builder: </p>
+<h4 id="in-model-builder">In Model Builder</h4>
+<p>The items displayed on the canvas have different colours and shapes, which convey specific meanings. Here's an explanation of the colour and shape meanings for each item in Model Builder:</p>
+<p>a.  Tool: Tools are represented by rectangular icons on the canvas. They perform geoprocessing operations or analyses. The colour of the tool icon is typically blue.</p>
+<p>b.  Variable: Variables are represented by oval icons on the canvas. They store data or values used as inputs or outputs in your model. The colour of the variable icon is typically green.</p>
+<p>c.  Input: Inputs are represented by thin, solid lines connecting the outputs of one tool or variable to the inputs of another tool. The input line is usually black.</p>
+<p>d.  Output: Outputs are represented by thick, solid lines connecting the outputs of a tool or variable to the inputs of another tool or variable. The output line is usually black.</p>
+<p>e.  Model Parameter: Model parameters are inputs or outputs that can be configured when running the model. They are represented by a small flag icon attached to the tool or variable. The colour of the flag icon is typically purple.</p>
+<p>f.  Derived Output: Derived outputs are outputs that are generated by a tool but not explicitly connected to other tools. They are represented by dashed lines connecting the output of a tool to the canvas. The dashed line is usually black.</p>
+<p>g.  Branch: A branch represents a logical flow in the model where one set of tools or operations is executed based on a conditional statement. It is represented by a diamond-shaped icon. The colour of the branch icon is typically orange.</p>
+<p>h.  Model Label: Model labels are used to provide descriptive text or comments on the canvas. They are represented by rectangular boxes with a folded corner. The colour of the model label icon is typically gray.</p>
+<p>These colour and shape conventions help visually distinguish between different elements in your model, making it easier to understand the structure and flow of your geoprocessing workflows in Model Builder. By utilizing these visual cues, you can quickly identify tools, variables, inputs, outputs, branches, and labels, facilitating the design and comprehension of your models.</p>
+<hr />
+<p>You should also get familiar with actions, including adding variables, tools, defining inputs and outputs, and linking them together:</p>
+<p>a.  Opening Model Builder: To start using Model Builder, open ArcGIS Pro and create or open a project. Then, navigate to the "Analysis" tab on the ribbon and click on the "ModelBuilder" button to launch the Model Builder interface.</p>
+<p>b.  Adding Variables: Variables represent the data or values that will be used as inputs or outputs in your model. To add a variable, you can either right-click on the canvas or click on the "Add Variable" button in the Model Builder toolbar. Specify the variable's name, data type, and any other necessary properties. Variables can be used to store input data, intermediate results, or output data.</p>
+<p>c.  Adding Tools: Tools represent geoprocessing operations that perform specific tasks or analyses. To add a tool to your model, you can either search for it in the "Toolbox" pane and drag it onto the canvas or click on the "Insert" button in the Model Builder toolbar and choose the desired tool from the list. Each tool has its own set of parameters that you can configure based on your requirements.</p>
+<p>d.  Defining Inputs: Inputs are the data or variables that you provide to the tools for analysis. To define an input for a tool, you can either drag a variable from the Variables pane onto the tool or right-click on the tool and choose "Model Parameter" to create a new input variable. Inputs can be features, rasters, tables, or any other applicable data type.</p>
+<p>e.  Defining Outputs: Outputs are the results generated by the tools in your model. To define an output, you can either right-click on a tool and choose "Model Parameter" or drag an existing variable to the tool. Outputs can be specified as variables, allowing you to use them as inputs for subsequent tools or store them as final results.</p>
+<p>f.  Linking Inputs and Outputs: To connect the inputs and outputs between tools, you can click and drag from the output of one tool to the input of another tool. This establishes the flow of data and dependencies within your model. You can also link inputs and outputs to variables by dragging connections to or from the variables on the canvas.</p>
+<p>g.  Configuring Tool Parameters: For each tool in your model, you can double-click on it to open its properties dialog. Here, you can configure the tool's parameters, such as specifying input datasets, setting analysis options, defining output locations, and adjusting any other relevant settings.</p>
+<p>h.  Running the Model: Once you have built and configured your model, you can run it by clicking on the "Run" button in the Model Builder toolbar. This will execute each tool in the model in the defined order, passing inputs and collecting outputs as specified. You can monitor the progress and view any generated messages or warnings during the execution.</p>
+<p><strong>Note</strong>: It is also important to know that some variables and features will need to be set as “Parameter” in the Model Builder, this can be done by right clicking it and setting the green check on in the menu that will pop up. Whenever you do this a small P will appear beside your feature or variable letting you know which ones have or have not been set already. Now you know what we mean when we ask you to set a variable or feature as parameter.</p>
+<p><img alt="alt text" src="../Assets/image2.png" /></p>
+<p>In Model Builder, setting features and variables as parameters is like making your geoprocessing model flexible and customizable. Parameters allow you to input different values or datasets when running the model, without having to modify the model itself. It's like having adjustable dials on a control panel. Have you seen when a program asks you to input a name or a file before running a process? This is what you will be able to achieve when you set inputs as parameters. This flexibility makes your model more versatile and adaptable to different scenarios. It's like giving your model a set of knobs and switches so that you can fine-tune its behaviour for specific needs without rebuilding it from scratch.</p>
+<p>By utilizing variables, tools, inputs, outputs, and linking them together, Model Builder allows you to create complex geoprocessing workflows in a visual and intuitive manner. This empowers you to automate repetitive tasks, streamline analyses, and improve efficiency in your GIS workflows.</p>
+<hr />
+<h2 id="3-how-to-add-each-different-pet-input-to-your-model-builder">3.   How to add each different PET input to your Model Builder:</h2>
+<p>Our main goal will be to process most of the collected data for the PET into raster files in order to unlock valuable insights and enable comprehensive analysis. By processing and converting the data to a raster format, we can create a visual representation that captures the spatial patterns and variations of the Physiological Equivalent Temperature (PET) across the study area. This allows us to perform further analysis, identify hotspots or cool zones, and make informed decisions. It's like unravelling the hidden stories within the data and transforming them into a meaningful and actionable format. </p>
+<p>There are 2 main values that will be recurring throughout the whole model, we will be “calling” them for several processes and the idea is to just define them once so you don’t have to be changing several variables when you can only change the main one. This 2 values are:</p>
+<h4 id="a-cell-size">a. Cell Size:</h4>
+<p>Imagine your geographic data as a grid, like a pixelated image. Each cell in the grid represents a specific area on the ground, like a tiny square. The cell size refers to the size of each of these square cells. A smaller cell size means smaller and more detailed squares, while a larger cell size means larger and less detailed squares. The cell size determines the level of resolution and precision in your data. Smaller cell sizes provide finer details and accuracy, but require more storage and processing power. On the other hand, larger cell sizes sacrifice some detail but are more efficient in terms of storage and processing. So, choosing the right cell size is important to balance data quality and performance in your GIS analysis and mapping tasks. </p>
+<p>This cell size must remain as similar as possible within all the processes we will do in the project to avoid as much as possible to miscalculate our results. To achieve this, you can add the Cell Size as a variable and selecting the data type as “Cell Size”.  </p>
+<p>You will see your variable appear in your model builder and you will be able to double click it to assign it a predefined value (this value will depend on your Coordinate System, as we are using the Amersfoort / RD New (EPSG:28992) our variable will be considered in meters). Additionally, be sure to set it as parameter.</p>
+<table>
+<thead>
+<tr>
+<th><img alt="alt text" src="../Assets/image-0.png" /></th>
+<th><img alt="alt text" src="../Assets/image-1.png" /></th>
+<th><img alt="alt text" src="../Assets/image-2.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="b-analysis-extent">b. Analysis Extent:</h4>
+<p>Think of the analysis extent as a boundary that defines the area you want to focus on in your GIS analysis. It's like putting a frame around a picture to zoom in on a specific region. The analysis extent determines the spatial coverage of your analysis and limits it to a specific area of interest. By setting the analysis extent, you can narrow down your study area and concentrate your analysis on the relevant geographic features within that boundary. It helps you zoom in on the details that matter and avoid unnecessary computations on areas outside of your interest. So, it's like putting on a pair of virtual glasses to narrow your focus and analyse the world within a specific window.</p>
+<p>This “window” can help us select the desired area to be calculated for our PET analysis and help us do faster calculations localized only on our area of interest. Be sure to set it as a parameter.</p>
+<p>In order to establish the extent of the whole project you can go to the “insert” ribbon in the ModelBuilder tab, select the variable button. You will see a small window appear called Variable Data Type, that will let you choose from different preestablished data representations, be sure to look for the “Extent” type in the dropdown list and press ok when you are fine with your selection.</p>
+<p><img alt="alt text" src="../Assets/image-4.png" />
+<img alt="alt text" src="../Assets/image-5.png" /></p>
+<p>We then have to work on our individual values and the way each of them is going to be calculated and combined with other values or tools in order to obtain the necessary outputs that we can use in our PET equation. If you have been following this guide in order you should have all your downloaded data already loaded in your ArcGIS PRO project. If by any chance you haven’t done this by now, this is a good moment to do it. Also if you need to refresh your memory on how the PET equation looks you can always check the Section 2: Understanding the Science Behind PET. 
+As we told you before we will start by doing our first calculation inside of the ModelBuilder. You will se we added names to this process because it makes it very easy to understand and remember what it does. So try to give your processes easy self explanatory names, that way you can always go back to them and have a general idea of what is happening in you!</p>
+<h4 id="c-ndvi">c. NDVI:</h4>
+<p>This raster file will be the base that we will use to update any calculation related to the NDVI when we start doing changes our area of interest later on. It is a good idea to load it into the Model Builder as it will also help us “snap rasters” in the “Environments” tab under some resultant rasters from some processes.  </p>
+<p>Think of snap rasters as magnets that align your data perfectly. When working with multiple datasets in GIS, they may not always align perfectly due to differences in resolution or grid orientation. Snap rasters help ensure that all your datasets line up seamlessly. It's like using a magnetic board to align puzzle pieces. By setting a snap raster, your data snaps to its grid, making sure that each cell matches up precisely with other datasets. This alignment is important for accurate analysis and smooth visualization. It's like having a magical force that pulls your data into perfect alignment, creating a harmonious and cohesive GIS environment.</p>
+<p>You can drag the NDVI raster that we obtained at the beginning of the guide and drop it in the ModelBuilder work area. Be sure to make it a parameter.</p>
+<h4 id="d-solar-angle">d. Solar Angle :</h4>
+<p>This one will be a good way to make you started in understanding how to use some processes in ModelBuilder to obtain a resulting value, shapefile, or raster. As we did with the “Extent” and “Cell Size” variables we can add some new variables that we will use and used them. To start, simply add the following variables, remember that you add them directly from the Insert menu in the ModelBuilder tab and then you select the type of data you want to add:</p>
+<ul>
+<li>Date: For this case you select the Date data type. Be sure to make it a parameter. If  you open it you will have the option to add a date and time. Here is important that after you identified the warmest year, day and time of the city you are researching and select it here.</li>
+<li>Latitude: You wont find a “Latitude” data type, therefore for this you will need a “Double” type. Be sure to make it a parameter. Here you should also include the latitude of your study area.</li>
+<li>Longitude: You wont find a “Longitude” data type, therefore for this you will need a “Double” type. Be sure to make it a parameter. And also include the longitude of your study area.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th><img alt="alt text" src="../Assets/image-3.png" /><img alt="alt text" src="../Assets/image-6.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Solar Radiation Angle Calculation: In order to calculate the Solar Radiation Angle we will need to use a Phyton code that is compatible with Arcgis. This codes are called Arcpy and they are very powerful whenever we can’t find a geoprocessing tool for a specific task in our project. Then if it is not available we can create our own geoprocessing tools and do calculations within ArcGIS PRO. Don’t worry, there is a code already prepared by us that will take the basic calculations of the Solar Radiation Angle and apply it to our recently created variables.
+In order to convert the code into a geoprocessing tool that can take user inputs and perform the same operation, the following steps can be done:
+1)  Create a new Python Toolbox in ArcGIS Pro or ArcMap:</li>
+</ul>
+<blockquote>
+<p>a Open the Catalog Pane: In ArcGIS Pro, you can find the Catalog Pane on the right-hand side of the application interface. Click on the Catalog button to open it. In ArcMap, go to the Customize menu and select Catalog Pane to open it.</p>
+<p>b.    Create a new Toolbox: In the Catalog Pane, navigate to the location where you want to create your new Python Toolbox. Right-click on that location and select New &gt; Toolbox. Give your toolbox a name and click OK.</p>
+</blockquote>
+<p>2)  Customize the Toolbox: Now that you have created the toolbox, you can start customizing it by adding tools and scripts. Right-click on the toolbox and select New &gt; Script. This will create a new script tool within the toolbox.</p>
+<p>3)  Right click  on the script/ Properties/Parameters to define the input parameters for the script tool, which should include:</p>
+<blockquote>
+<p>a. Input date (Date type): Select the value as required and the direction should be set as an input. </p>
+<p>b. Input latitude (Double): Select the value as required and the direction should be set as an input. You can set your latitude value in the default column. </p>
+<p>c.    Input longitude (Double): Select the value as required and the direction should be set as an input. You can set your longitude value in the default column.</p>
+<p>d.    Output Angle (Double): Select the value as derived and the direction should be set as an output. </p>
+</blockquote>
+<p>4)  Examine the script tool code and paste the provided code in <a href="#dsolar-angle-">Chapter 2 Section 1</a> 
+5)  Save the toolbox and test the tool in model builder.
+6)  The result will be a decimal number that will be used in the PET equation later on.</p>
+<p><img alt="alt text" src="../Assets/image-8.png" /> <img alt="alt text" src="../Assets/image-9.png" /></p>
+<p>It was easy right? Now that you know the basics we can move on into operations that will need multiple variables and geoprocessing tools together. There is no need to worry, as long as you apply the concepts you just learned you will do fine. We will also give you step by step instructions on how to proceed so you will not get lost in the process!</p>
+<h4 id="e-buildings">e. Buildings</h4>
+<p>e.  Buildings: This is an important feature layer that we will use in a couple of processes. To add it to your project you can simply drag it from your contents pane (where all your loaded layers in the project are) and drop it in the Model Builder area. Be sure to set it as a parameter.</p>
+<p>Buildings will be connected to 2 main tasks:</p>
+<h4 id="sky-view-factor">Sky View Factor</h4>
+<h5 id="step-1-convert-the-building-heights-to-raster">Step 1. Convert the building heights to raster:</h5>
+<p>1)  In the Model Builder window, locate the Toolbox pane on the left. Scroll down and find the "Conversion Tools" toolbox.</p>
+<p>2)  Expand the "Conversion Tools" toolbox and find the "To Raster" toolset. Within this toolset, you'll discover the "Polygon to Raster" tool. </p>
+<p>3)  To add the "Polygon to Raster" tool to your model, simply drag and drop it onto the canvas. It will appear as a rectangular icon representing the tool. </p>
+<p>4)  Link the Buildings shapefile as an input feature, using the value Height in the “Value field” and for the output add a name to save the result of the "Polygon to Raster" tool. Link the NDVI raster to the “Snap Raster” and Cell Size to the “Cell Size”, and Analysis Extent in “Extent”, you can find this options on the environments tab.</p>
+<p>5)  Configure Tool Parameters: Double-click on the "Polygon to Raster" tool icon on the canvas to open its properties. In the properties window, you can configure the tool's parameters, here, the “Height” value from Building should be selected and you can then give it a specific name and location in Output Raster Dataset (for example we used BuildingRasterHeights) remember to set the cellsize and the extent in the environments tab and click the “OK” button. </p>
+<p>6)  Once you have set the parameters, save your model and you can test it by running it. The "Polygon to Raster" tool will convert the polygons to a raster dataset based on your specifications.</p>
+<p>Tip: if you are having problems locating the Polygon to Raster Tool in your ModelBuilder (specially later when you will have several similar tools) then you can right click it and you can find the option “Rename”, this will let you personalize the name and make it easier to differentiate.</p>
+<table>
+<thead>
+<tr>
+<th><img alt="alt text" src="../image.png" /></th>
+<th><img alt="alt text" src="../image-1.png" /></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h5 id="step-2-creating-an-updated-building-raster">Step 2. Creating an updated building raster:</h5>
+<p>We want to give the users the ability to edit the buildings to create and test their own environments. That is why we need to regenerate a new raster that contains the buildings that we generated in the previous step. This will help us update the DSM file as if we had downloaded it with the new buildings already.
+For that to be done we need to make use of the Raster Calculator tool with a code that lets us add, subtract or in general allow us to do any mathematical calculations between two different raster files.
+You will notice after changing the name of the output, this will also be reflected in your Model Builder area, right after the Polygon to raster that we previously added. This will come in handy because we will be able to connect our output and use it in other tools.</p>
+<p>To use the Raster Calculator tool in Model Builder you can do the following:</p>
+<p>1)  In the Model Builder window, locate the Toolbox pane on the left side. Scroll down and find the "Spatial Analyst Tools" toolbox.</p>
+<p>2)  Expand the "Spatial Analyst Tools" toolbox and locate the "Map Algebra" toolset. Within this toolset, you'll find the "Raster Calculator" tool. </p>
+<p>3)  Drag and drop the "Raster Calculator" tool onto the canvas. It will appear as an icon representing the tool. </p>
+<p>4)  Connect the inputs and outputs of the "Raster Calculator" tool. Click on the output. In this case you will connect the output of the Buildings to Raster, the DTM and the DSM rasters as input (be sure to make them parameters). </p>
+<p>5)  Double-click on the "Raster Calculator" tool to open its parameters. In the expression field, try to replicate the following code with the name of your input files: </p>
+<div class="highlight"><pre><span></span><code>Con(IsNull(&quot;%Building Raster Height%&quot;),&quot;%Original DSM%&quot;,(&quot;%Building Raster Height%&quot;+&quot;%DTM%&quot;))
+</code></pre></div>
+<p>This code performs a conditional statement to check if the building raster height is null. If it is null, it replaces it with the original DSM raster; otherwise, it adds the building raster height to the DTM raster. Every value that is within two (“) represents the raster you want to use in that specific calculation. </p>
+<p>Note: If the name of your files don’t match ours or you are scared of making a typo mistake, don’t worry you can also double click the raster you want to add in the “Rasters” window in the top left part of the Raster Calculator tool.</p>
+<p>6)  Configure any additional parameters, such as the output raster name, both cell size and analysis extent should be applied to the tool as we did before.  To avoid the tool from creating midway files that we are not going to save later in our project we can use the “in_memory\”  directory in our output options (double clicking the DSM_new Buildings output) for example we named our output and directory to “in_memory\DSM_New”.</p>
+<p>7)  Save your model and test it by pressing “Run” to execute the Raster Calculator tool. It will apply the provided code to perform the specified calculations on the input rasters.</p>
+<p>Here is an example of how your Model Builder should look like:</p>
+<p><img alt="alt text" src="../image-2.png" /></p>
+<h6 id="step-6-calculate-the-sky-view-factor-svf">Step 6 Calculate the Sky View Factor (SVF):</h6>
+<p>After preparing our data to able to interact and be compatible with each other, now we can finally apply another Arcpy based script tool to our project. This tool will calculate the SVF, you can check <a href="../Assets/SVF.py">the code</a> we will use.</p>
+<p>In order to convert the code into a geoprocessing tool that can take user inputs and perform the same operation, the following steps can be done:
+1)  Create a new Python Toolbox in ArcGIS Pro or ArcMap:</p>
+<p>a.  Open the Catalog Pane: In ArcGIS Pro, you can find the Catalog Pane on the right-hand side of the application interface. Click on the Catalog button to open it. In ArcMap, go to the Customize menu and select Catalog Pane to open it.
+b.  Create a new Toolbox: In the Catalog Pane, navigate to the location where you want to create your new Python Toolbox. Right-click on that location and select New &gt; Toolbox. Give your toolbox a name and click OK.</p>
+<p>2)  Customize the Toolbox: Now that you have created the toolbox, you can start customizing it by adding tools and scripts. Right-click on the toolbox and select New &gt; Script. This will create a new script tool within the toolbox.</p>
+<p>3)  Right click  on the script/ Properties/Parameters to define the input parameters for the script tool, which should include:</p>
+<p>a.  Input DSM (Raster Layer): Direction as Input
+b.  Output (Raster Layer) Direction as Output</p>
+<p><img alt="alt text" src="../image-3.png" /></p>
+<p>4)  Examine the script tool code and paste the <a href="../Assets/SVF.py">provided code</a></p>
+<p>5)  Save the toolbox and test the tool in model builder.</p>
+<p>6)  The resultant DSM_FILLED_Resample raster obtained in the last step will be used as an input. There is no need to connect the Cell Size and Extent variables.</p>
+<p>7)  To avoid the tool from creating midway files that we are not going to have later in our project we can use the “in_memory\”  directory in hour output options (double clicking the SVF output) for example we named our output and directory to “in_memory\SVF”.</p>
+<h4 id="bowen-ratio">BOWEN RATIO:</h4>
+<p>For this part we will also use the Building and NDVI variables that we added at the beginning. Therefore, there is no need to add them again to the ModelBuilder. Whenever you need to use them just drag a connection arrow to the geoprocessing tool and you are set to continue.</p>
+<h5 id="a-building-effect-on-bowen-ratio">A.    BUILDING EFFECT ON BOWEN RATIO</h5>
+<h6 id="step-1-assign-bowen-to-buildings">Step 1. Assign Bowen to Buildings:</h6>
+<p>We will need to assign the Bowen values to the Buildings, therefore we will use the geoprocessing tool Calculate Field.</p>
+<p>1)  In the Catalog pane, navigate to the Geoprocessing Toolbox and expand it.</p>
+<p>2)  Expand the Data Management Tools folder and locate the Calculate Field tool.</p>
+<p>3)  Drag the Calculate Field tool and drop it onto the Model Builder canvas.</p>
+<p>4)  The Calculate Field tool will appear as a new element in the Model Builder.</p>
+<p>5)  Click on the Calculate Field tool to select it, and the tool's properties will be displayed in the Geoprocessing pane.</p>
+<p>6)  In the Model Builder canvas, click on the field or feature class where you want to add the Calculate Field tool.</p>
+<p>7)  Connect the Building shapefile and it will act as the input field or feature class will be connected to the Calculate Field tool as an input. Additionally, connect the extent  variable in order to be able to select it on the environments tab.</p>
+<p>8)  In the Geoprocessing pane, configure the properties of the Calculate Field tool.</p>
+<p>9)  Specify the input table or feature class by selecting it from the drop-down menu or using the browse button, being in this case the Building.</p>
+<p>10) Enter the field name where you want to calculate a new value in the Field Name parameter, we named ours BowenRatio.</p>
+<p>11) Choose the expression or formula you want to use to calculate the field value in the Expression parameter. In our case we used the value 3.</p>
+<p>12) Configure any additional parameters or options based on your specific needs.</p>
+<p>13) Click the Run button to execute the Calculate Field tool and perform the field calculation.</p>
+<p>14) The output field will be updated with the calculated values.</p>
+<p><img alt="alt text" src="../image-4.png" /></p>
+<h6 id="step-2-convert-buildings-to-raster-bowen">Step 2. Convert Buildings to Raster - Bowen:</h6>
+<p>With the freshly assigned Bowen values to the Building shapefile we need to convert this to a Raster in order to be able to do some calculations. Therefore you need to do the following:</p>
+<p>1)  In the Model Builder window, locate the Toolbox pane on the left. Scroll down and find the "Conversion Tools" toolbox.</p>
+<p>2)  Expand the "Conversion Tools" toolbox and find the "To Raster" toolset. Within this toolset, you'll discover the "Polygon to Raster" tool. </p>
+<p>3)  To add the "Polygon to Raster" tool to your model, simply drag and drop it onto the canvas. It will appear as a rectangular icon representing the tool. </p>
+<p>4)  Link the Buildings resultant shapefile from the previous step as an input feature, using the value Height in the “Value field” and for the output add a name to save the result of the "Polygon to Raster" tool. Link the NDVI raster to the “Snap Raster” and Cell Size to the “Cell Size”, and Analysis Extent in “Extent”, you can find this options on the environments tab.</p>
+<p>5)  Configure Tool Parameters: Double-click on the "Polygon to Raster" tool icon on the canvas to open its properties. In the properties window, you can configure the tool's parameters, here, the “BowenRatio” value from Building should be selected and you can then give it a specific name and location in Output Raster Dataset (for example we used BuildingRasterBowen) remember to set the cellsize and the extent in the environments tab and click the “OK” button. </p>
+<p>6)  Once you have set the parameters, save your model and you can test it by running it. The "Polygon to Raster" tool will convert the polygons to a raster dataset based on your specifications.</p>
+<p><strong>Tip</strong>: if you are having problems locating the Polygon to Raster Tool in your ModelBuilder (specially later when you will have several similar tools) then you can right click it and you can find the option “Rename”, this will let you personalize the name and make it easier to differentiate.</p>
+<p><img alt="alt text" src="../image-5.png" /></p>
+<h6 id="step-3-reclassify-ndvi-to-bowen">Step 3. Reclassify NDVI to Bowen:</h6>
+<p>Parallel to the previous step you have to do a reclassification of the values that are in the NDVI according to the Bomen ranges. This will be done with the Reclassify geoprocessing tool as follows:</p>
+<p>1)  In the Catalog pane, navigate to the Geoprocessing Toolbox and expand it.</p>
+<p>2)  Expand the Spatial Analyst Tools folder and locate the Reclassify tool.</p>
+<p>3)  Drag the Reclassify tool and drop it onto the Model Builder canvas.</p>
+<p>4)  The Reclassify tool will appear as a new element in the Model Builder.</p>
+<p>5)  Click on the Reclassify tool to select it, and the tool's properties will be displayed in the Geoprocessing pane.</p>
+<p>6)  In the Model Builder canvas, click on the raster dataset or layer where you want to apply the Reclassify tool.</p>
+<p>7)  The NDVI will be connected to the Reclassify tool as an input. And be sure to connect the Extent and Cell Size variables to use them in their respective properties in the environments tab.</p>
+<p>8)  In the Geoprocessing pane, configure the properties of the Reclassify tool.</p>
+<p>9)  Specify the input raster by selecting it from the drop-down menu or using the browse button.</p>
+<p>10) Set up the reclassification rules for the input raster in the Reclassification parameter. This can be done by clicking on the pencil icon or using the Import button to load a pre-defined remap table.</p>
+<p>11) Adjust any additional parameters or options based on your specific needs. For example, the Reclass field will be VALUE. Also check the image showing the classification ranges that we selected. Be sure to name your Output raster and save it somewhere you can find it easily later on (we called ours Pre NDVI).</p>
+<p>12) Click the Run button to execute the Reclassify tool and perform the raster reclassification.</p>
+<p>13) The output raster will be generated according to the reclassification rules and settings you specified.</p>
+<p>14) Save the Model Builder if desired for future use.</p>
+<p><img alt="alt text" src="../image-6.png" /></p>
+<h6 id="step-4-converting-ndvi-values-to-proper-bowen-classification">Step 4. Converting NDVI values to proper Bowen classification:</h6>
+<p>The Bowen ratio ranges from numbers lower than 0.1 for tropical oceans to numbers higher than 10 for deserts. This will help us identify the heat that is being transferred through latent heat flux (evaporation). </p>
+<p>In order to get this values we can use a raster calculator tool to apply a specific formula to the values in the raster obtained in the last step.</p>
+<p>1)  In the Model Builder window, locate the Toolbox pane on the left side. Scroll down and find the "Spatial Analyst Tools" toolbox.</p>
+<p>2)  Expand the "Spatial Analyst Tools" toolbox and locate the "Map Algebra" toolset. Within this toolset, you'll find the "Raster Calculator" tool. </p>
+<p>3)  Drag and drop the "Raster Calculator" tool onto the canvas. It will appear as an icon representing the tool. </p>
+<p>4)  Connect the inputs and outputs of the "Raster Calculator" tool. Click on the output. In this case you will connect the output of the Reclassify NDVI to Bowen, the Extent and Cell Size as inputs.</p>
+<p>5)  Double-click on the "Raster Calculator" tool to open its parameters. In the expression field, try to replicate the following code with the name of your input files: </p>
+<p>"%Pre NDVI%"/10</p>
+<p>This code performs a division by 10 to every value in the previously obtained classified NDVI allowing each value to be compatible with the Bowen values we added to the Building Raster Bowen. We will eventually merge this two rasters together and that is the reason why they must match in units.</p>
+<p><em>Note</em>: If the name of your files don’t match ours or you are scared of making a typo mistake, don’t worry you can also double click the raster you want to add in the “Rasters” window in the top left part of the Raster Calculator tool.</p>
+<p>6)  Configure any additional parameters, such as the output raster name, both cell size and analysis extent should be applied to the tool as we did before.  To avoid the tool from creating midway files that we are not going to save later in our project we can use the “in_memory\”  directory in our output options (double clicking the output) for example we named our output and directory to “in_memory\NDVI_Reclass”.</p>
+<p>7)  Save your model and test it by pressing “Run” to execute the Raster Calculator tool. It will apply the provided code to perform the specified calculations on the input rasters.</p>
+<h6 id="step-5-buildings-to-bowen-conditional">Step 5. Buildings to Bowen Conditional:</h6>
+<p>This is the moment we mix both of the raster outputs we have obtained so far, we have the effect that the buildings will have and this now will change if a building is added or removed. In order to  achieve this we need to use the Raster Calculator tool: </p>
+<p>1)  In the Model Builder window, locate the Toolbox pane on the left side. Scroll down and find the "Spatial Analyst Tools" toolbox.</p>
+<p>2)  Expand the "Spatial Analyst Tools" toolbox and locate the "Map Algebra" toolset. Within this toolset, you'll find the "Raster Calculator" tool. </p>
+<p>3)  Drag and drop the "Raster Calculator" tool onto the canvas. It will appear as an icon representing the tool. </p>
+<p>4)  Connect the inputs and outputs of the "Raster Calculator" tool. Click on the output. In this case you will connect the output NDVI RECLASS and the output of the Building Raster to Bowen that we obtained in the previous steps, the Extent and Cell Size as inputs.</p>
+<p>5)  Double-click on the "Raster Calculator" tool to open its parameters. In the expression field, try to replicate the following code with the name of your input files: </p>
+<div class="highlight"><pre><span></span><code>Con(IsNull(&quot;%Building Raster Bowen%&quot;),&quot;%NDVI RECLASS%&quot;,(&quot;%Building Raster Bowen%&quot;))
+</code></pre></div>
+<p>This code is checking if the "Building Raster Bowen" dataset is null. If it is null, the output will be "%NDVI RECLASS%", and if it is not null, the output will be "%Building Raster Bowen%". The Con function provides flexibility in assigning values based on specific conditions, allowing you to handle different scenarios within your geoprocessing workflows.</p>
+<p>Note: If the name of your files don’t match ours or you are scared of making a typo mistake, don’t worry you can also double click the raster you want to add in the “Rasters” window in the top left part of the Raster Calculator tool.</p>
+<p>6)  Configure any additional parameters, such as the output raster name, both cell size and analysis extent should be applied to the tool as we did before.  To avoid the tool from creating midway files that we are not going to save later in our project we can use the “in_memory\”  directory in our output options (double clicking the output) for example we named our output and directory to “in_memory\NDVI_Build”.</p>
+<p>7)  Save your model and test it by pressing “Run” to execute the Raster Calculator tool. It will apply the provided code to perform the specified calculations on the input rasters.</p>
+<p>This should give you and idea of how this part of your ModelBuilder should look like:</p>
+<p><img alt="alt text" src="../image-7.png" /></p>
+<h5 id="b-grass-effect-on-bowen-ratio">B.    GRASS EFFECT ON BOWEN RATIO</h5>
+<p>Now we will try to obtain the effect of the grass in the Bowen Ratio, for this you will need to add the grass areas shapefile to your ModelBuilder by dragging it and dropping it into the model area, be sure to make it a parameter.</p>
+<h6 id="step-1-assign-bowen-value-to-grass">Step 1. Assign Bowen value to Grass:</h6>
+<p>We will need to assign the Bowen values to the grass polygons, therefore we will use the geoprocessing tool Calculate Field.</p>
+<p>1)  In the Catalog pane, navigate to the Geoprocessing Toolbox and expand it.</p>
+<p>2)  Expand the Data Management Tools folder and locate the Calculate Field tool.</p>
+<p>3)  Drag the Calculate Field tool and drop it onto the Model Builder canvas.</p>
+<p>4)  The Calculate Field tool will appear as a new element in the Model Builder.</p>
+<p>5)  Click on the Calculate Field tool to select it, and the tool's properties will be displayed in the Geoprocessing pane.</p>
+<p>6)  In the Model Builder canvas, click on the field or feature class where you want to add the Calculate Field tool.</p>
+<p>7)  Connect the Grass shapefile and it will act as the input field or feature class will be connected to the Calculate Field tool as an input. Additionally, connect the extent  variable in order to be able to select it on the environments tab.</p>
+<p>8)  In the Geoprocessing pane, configure the properties of the Calculate Field tool.</p>
+<p>9)  Specify the input table or feature class by selecting it from the drop-down menu or using the browse button, being in this case “Gras”.</p>
+<p>10) Enter the field name where you want to calculate a new value in the Field Name parameter, we named ours Grass Areas.</p>
+<p>11) Choose the expression or formula you want to use to calculate the field value in the Expression parameter. In our case we used the value 4.</p>
+<p>12) Configure any additional parameters or options based on your specific needs.</p>
+<p>13) Click the Run button to execute the Calculate Field tool and perform the field calculation.</p>
+<p>14) The output field will be updated with the calculated values.</p>
+<h6 id="step-2-convert-grass-to-raster">Step 2. Convert Grass to Raster:</h6>
+<p>With the freshly assigned Bowen values to the Grass shapefile we need to convert this to a Raster in order to be able to do some calculations. Therefore you need to do the following:</p>
+<p>1)  In the Model Builder window, locate the Toolbox pane on the left. Scroll down and find the "Conversion Tools" toolbox.</p>
+<p>2)  Expand the "Conversion Tools" toolbox and find the "To Raster" toolset. Within this toolset, you'll discover the "Polygon to Raster" tool. </p>
+<p>3)  To add the "Polygon to Raster" tool to your model, simply drag and drop it onto the canvas. It will appear as a rectangular icon representing the tool. </p>
+<p>4)  Link the resultant shapefile from the previous step as an input feature, using the value Height in the “Value field” and for the output add a name to save the result of the "Polygon to Raster" tool. Link the NDVI raster to the “Snap Raster” and Cell Size to the “Cell Size”, and Analysis Extent in “Extent”, you can find this options on the environments tab.</p>
+<p>5)  Configure Tool Parameters: Double-click on the "Polygon to Raster" tool icon on the canvas to open its properties. In the properties window, you can configure the tool's parameters, here, the value from the calculated field for Grass should be selected and you can then give it a specific name and location in Output Raster Dataset (for example we used in_memory\Gras_PolygonToRaster) remember to set the cellsize and the extent in the environments tab and click the “OK” button. </p>
+<p>6)  Once you have set the parameters, save your model and you can test it by running it. The "Polygon to Raster" tool will convert the polygons to a raster dataset based on your specifications.</p>
+<p><img alt="Alt text" src="image-20.png" /></p>
+<h6 id="step-3-joining-grass-and-buildings-bowen-values">Step 3. Joining Grass and Buildings Bowen Values:</h6>
+<p>This is the moment we mix both of the raster outputs we have obtained so far, we have the effect that the buildings and grass will have and we will also know what value will be retained if a building or patch of grass is added or removed. In order to  achieve this we need to use the Raster Calculator tool: </p>
+<p>1)  In the Model Builder window, locate the Toolbox pane on the left side. Scroll down and find the "Spatial Analyst Tools" toolbox.</p>
+<p>2)  Expand the "Spatial Analyst Tools" toolbox and locate the "Map Algebra" toolset. Within this toolset, you'll find the "Raster Calculator" tool. </p>
+<p>3)  Drag and drop the "Raster Calculator" tool onto the canvas. It will appear as an icon representing the tool. </p>
+<p>4)  Connect the inputs and outputs of the "Raster Calculator" tool. Click on the output. In this case you will connect the output Grass to Raster and the output of the Building to Bowen Conditional that we obtained in the previous steps, the Extent and Cell Size as inputs.</p>
+<p>5)  Double-click on the "Raster Calculator" tool to open its parameters. In the expression field, try to replicate the following code with the name of your input files: 
+<div class="highlight"><pre><span></span><code>Con(IsNull(&quot;%Grass R%&quot;),&quot;%NDVI_Buildings%&quot;,(&quot;%Grass R%&quot;/10))
+</code></pre></div></p>
+<p>This code checks if the "Grass R" dataset is null. If it is null, the output will be "%NDVI_Buildings%". If it is not null, the output will be the value of "%Grass R%" divided by 10. The Con function provides a way to handle different scenarios and apply specific operations based on conditional logic in your geoprocessing tasks.</p>
+<p><strong>Note</strong>: If the name of your files don’t match ours or you are scared of making a typo mistake, don’t worry you can also double click the raster you want to add in the “Rasters” window in the top left part of the Raster Calculator tool.</p>
+<p>6)  Configure any additional parameters, such as the output raster name, both cell size and analysis extent should be applied to the tool as we did before.  To avoid the tool from creating midway files that we are not going to save later in our project we can use the “in_memory\”  directory in our output options (double clicking the output) for example we named our output and directory to “in_memory\Bowen_Grass”.</p>
+<p>7)  Save your model and test it by pressing “Run” to execute the Raster Calculator tool. It will apply the provided code to perform the specified calculations on the input rasters.</p>
+<h5 id="c-water-effect-on-bowen-ratio">C.    WATER EFFECT ON BOWEN RATIO</h5>
+<p>Now we will try to obtain the effect of the water in the Bowen Ratio, for this you will need to add the Water Body areas shapefile to your ModelBuilder by dragging it and dropping it into the model area, be sure to make it a parameter.</p>
+<h6 id="step-1-add-a-missing-field-to-the-water-bodies-shapefile">Step 1. Add a missing field to the Water Bodies Shapefile:</h6>
+<p>In our case we needed a field to add the Water Bodies values to the shapefile. If you already have this field you can skip this step, but we strongly recommend to check the field type is the same as the one we are using here.</p>
+<p>1)  In the Catalog pane, navigate to the Geoprocessing Toolbox and expand it.</p>
+<p>2)  Expand the Data Management Tools folder and locate the "Add Field" tool.</p>
+<p>3)  Drag the "Add Field" tool and drop it onto the Model Builder canvas.</p>
+<p>4)  The "Add Field" tool will appear as a new element in the Model Builder.</p>
+<p>5)  Click on the "Add Field" tool to select it, and the tool's properties will be displayed in the Geoprocessing pane.</p>
+<p>6)  In the Model Builder canvas, click on the feature class or table where you want to add the field.</p>
+<p>7)  The input feature class or table will be connected to the "Add Field" tool as an input.</p>
+<p>8)  In the Geoprocessing pane, configure the properties of the "Add Field" tool.</p>
+<p>9)  Specify the input table by selecting it from the drop-down menu or using the browse button. For us was the Water Bodies one.</p>
+<p>10) Enter the name of the field you want to add in the "Field Name" parameter. We left it as “Boolean”.</p>
+<p>11) Choose the data type of the field from the available options (e.g., text, integer, double, etc.) in the "Field Type" parameter. Select the Short (16-bit integer).</p>
+<p>12) Set any additional parameters for the field, such as the field length or precision, if applicable.</p>
+<p>13) Click the Run button to execute the "Add Field" tool and add the field to the input feature class or table.</p>
+<p>14) The output will be the input feature class or table with the new field added.</p>
+<p>15) Save the Model Builder if desired for future use.</p>
+<h5 id="step-2-assign-bowen-value-to-water">Step 2. Assign Bowen value to Water:</h5>
+<p>Now we will need to assign the Bowen values to the grass polygons, therefore we will use the geoprocessing tool Calculate Field.</p>
+<p>1)  In the Catalog pane, navigate to the Geoprocessing Toolbox and expand it.</p>
+<p>2)  Expand the Data Management Tools folder and locate the Calculate Field tool.</p>
+<p>3)  Drag the Calculate Field tool and drop it onto the Model Builder canvas.</p>
+<p>4)  The Calculate Field tool will appear as a new element in the Model Builder.</p>
+<p>5)  Click on the Calculate Field tool to select it, and the tool's properties will be displayed in the Geoprocessing pane.</p>
+<p>6)  In the Model Builder canvas, click on the field or feature class where you want to add the Calculate Field tool.</p>
+<p>7)  Connect the Water Bodies shapefile and it will act as the input field or feature class will be connected to the Calculate Field tool as an input. Additionally, connect the extent  variable in order to be able to select it on the environments tab.</p>
+<p>8)  In the Geoprocessing pane, configure the properties of the Calculate Field tool.</p>
+<p>9)  Specify the input table or feature class by selecting it from the drop-down menu or using the browse button, being in this case the “water addfield”.</p>
+<p>10) Enter the field name where you want to calculate a new value in the Field Name parameter, we named ours Waterbodies OSM.</p>
+<p>11) Choose the expression or formula you want to use to calculate the field value in the Expression parameter. In our case we used the value 1.</p>
+<p>12) Configure any additional parameters or options based on your specific needs.</p>
+<p>13) Click the Run button to execute the Calculate Field tool and perform the field calculation.</p>
+<p>14) The output field will be updated with the calculated values.</p>
+<h6 id="step-3-convert-water-bodies-to-raster">Step 3. Convert Water Bodies to Raster:</h6>
+<p>With the freshly assigned Bowen values to the Water Bodies shapefile we need to convert this to a Raster in order to be able to do some calculations. Therefore you need to do the following:</p>
+<p>1)  In the Model Builder window, locate the Toolbox pane on the left. Scroll down and find the "Conversion Tools" toolbox.</p>
+<p>2)  Expand the "Conversion Tools" toolbox and find the "To Raster" toolset. Within this toolset, you'll discover the "Polygon to Raster" tool. </p>
+<p>3)  To add the "Polygon to Raster" tool to your model, simply drag and drop it onto the canvas. It will appear as a rectangular icon representing the tool. </p>
+<p>4)  Link the Assign Water Bodies Bowen Ratio resultant shapefile from the previous step as an input feature, using the value Boolean in the “Value field” and for the output add a name to save the result of the "Polygon to Raster" tool. Link the NDVI raster to the “Snap Raster” and Cell Size to the “Cell Size”, and Analysis Extent in “Extent”, you can find this options on the environments tab.</p>
+<p>5)  Configure Tool Parameters: Double-click on the "Polygon to Raster" tool icon on the canvas to open its properties. In the properties window, you can configure the tool's parameters, here, the value from the calculated field for Grass should be selected and you can then give it a specific name and location in Output Raster Dataset (for example we used in_memory\WaterRaster) remember to set the cellsize and the extent in the environments tab and click the “OK” button. </p>
+<p>6)  Once you have set the parameters, save your model and you can test it by running it. The "Polygon to Raster" tool will convert the polygons to a raster dataset based on your specifications.</p>
+<p><img alt="alt text" src="../image-8.png" /></p>
+<h5 id="step-4-calculate-bowen-ratio">Step 4. Calculate Bowen Ratio:</h5>
+<p>Here is where all the Bowen related resultant rasters come together, with this we will have the effect that the buildings, grass and water bodies will have and we will also know what value will be retained if a building, patch of grass or a water body is added or removed. In order to  achieve this we need to use the Raster Calculator tool: </p>
+<p>1)  In the Model Builder window, locate the Toolbox pane on the left side. Scroll down and find the "Spatial Analyst Tools" toolbox.</p>
+<p>2)  Expand the "Spatial Analyst Tools" toolbox and locate the "Map Algebra" toolset. Within this toolset, you'll find the "Raster Calculator" tool. </p>
+<p>3)  Drag and drop the "Raster Calculator" tool onto the canvas. It will appear as an icon representing the tool. </p>
+<p>4)  Connect the inputs and outputs of the "Raster Calculator" tool. Click on the output. In this case you will connect the output Grass + Buildings and the output of Create Water Raster that we obtained in the previous steps, the Extent and Cell Size as inputs.</p>
+<p>5)  Double-click on the "Raster Calculator" tool to open its parameters. In the expression field, try to replicate the following code with the name of your input files: </p>
+<div class="highlight"><pre><span></span><code>Con(IsNull( &quot;%Water Raster%&quot;), &quot;%NDVI_GRASS%&quot;,( &quot;%Water Raster%&quot;/10))
+</code></pre></div>
+<p>This code checks if the "Water Raster" dataset is null. If it is null, the output will be "%NDVI_GRASS%". If it is not null, the output will be the value of "%Water Raster%" divided by 10. The Con function allows you to handle different scenarios and apply specific operations based on conditional logic in your geoprocessing tasks.</p>
+<p><strong>Note</strong>: If the name of your files don’t match ours or you are scared of making a typo mistake, don’t worry you can also double click the raster you want to add in the “Rasters” window in the top left part of the Raster Calculator tool.</p>
+<p>6)  Configure any additional parameters, such as the output raster name, both cell size and analysis extent should be applied to the tool as we did before.  To avoid the tool from creating midway files that we are not going to save later in our project we can use the “in_memory\”  directory in our output options (double clicking the output) for example we named our output and directory to “in_memory\BowenRatio”</p>
+<p>7)  Save your model and test it by pressing “Run” to execute the Raster Calculator tool. It will apply the provided code to perform the specified calculations on the input rasters.</p>
+<h3 id="wet-bulb-temperature">WET BULB TEMPERATURE:</h3>
+<p>We are getting pretty close to calculate the PET in our target city. We need to get some additional values that we will need for the PET equation, but don’t worry, the most tedious parts have already been done by now, so if you have been following this guide in order the upcoming parts should feel like a breeze for you. For this part we will need to add some values directly to the ModelBuilder and use them to calculate the Wet Bulb. For this do the following:</p>
+<h5 id="step-1-add-a-relative-humidity-value">Step 1. Add a Relative Humidity value:</h5>
+<p>We could easily add this value directly into the equation of the PET analysis but that wouldn’t let us change it if we want to check a different city, day or year. Therefore if we want that value to be editable later on it is better for us to add the value in the following way:</p>
+<p>Go to the “insert” ribbon in the ModelBuilder tab, select the variable button. You will see a small window appear called Variable Data Type, that will let you choose from different preestablished data representations, be sure to look for the “Double” type in the dropdown list and press ok when you are fine with your selection. Be sure to make it a parameter.</p>
+<h5 id="step-2-add-the-default-value-to-relative-humidity">Step 2. Add the default value to Relative Humidity:</h5>
+<p>If you want the PET tool to always load the same value as default you can easily stablish this by double clicking the recently added  Relative Humidity variable and typing the Relative Humidity value that you found when you investigated the warmest day in your study area. Ours was 47. </p>
+<p>You will have to do a similar procedure to add a second variable called Temperature in C.</p>
+<h5 id="step-3-add-a-temperature-in-c">Step 3. Add a Temperature in C:</h5>
+<p>Again, we could easily add this value directly into the equation of the PET analysis but that wouldn’t let us change it if we want to check a different city, day or year. Therefore if we want that value to be editable later on it is better for us to add the value in the following way:</p>
+<p>Go to the “insert” ribbon in the ModelBuilder tab, select the variable button. You will see a small window appear called Variable Data Type, that will let you choose from different preestablished data representations, be sure to look for the “Double” type in the dropdown list and press ok when you are fine with your selection. Be sure to make it a parameter.</p>
+<h5 id="step-4-add-the-default-value-to-relative-humidity">Step 4. Add the default value to Relative Humidity:</h5>
+<p>If you want the PET tool to always load the same value as default you can easily stablish this by double clicking the recently added  Temperature in C variable and typing the Temperature value that you found when you investigated the warmest day in your study area. Ours was 40.2. </p>
+<h4 id="step-5-calculate-the-wet-bulb-temperature">Step 5. Calculate the Wet Bulb Temperature:</h4>
+<p>There is no specific tool in ArcGIS PRO to generate the Wet Bulb temperature then you know what that means, we need to create our own.</p>
+<p>In order to convert the code into a geoprocessing tool that can take user inputs and perform the same operation, the following steps can be done:</p>
+<p>1)  Create a new Python Toolbox in ArcGIS Pro or ArcMap:</p>
+<p>a.  Open the Catalog Pane: In ArcGIS Pro, you can find the Catalog Pane on the right-hand side of the application interface. Click on the Catalog button to open it. In ArcMap, go to the Customize menu and select Catalog Pane to open it.</p>
+<p>b.  Create a new Toolbox: In the Catalog Pane, navigate to the location where you want to create your new Python Toolbox. Right-click on that location and select New &gt; Toolbox. Give your toolbox a name and click OK.</p>
+<p>2)  Customize the Toolbox: Now that you have created the toolbox, you can start customizing it by adding tools and scripts. Right-click on the toolbox and select New &gt; Script. This will create a new script tool within the toolbox.</p>
+<p>3)  Right click  on the script/ Properties/Parameters to define the input parameters for the script tool, which should include:</p>
+<p>a.  Input Relative Humidity (Double): Direction as Input
+b.  Input Temperature (Double): Direction as Input
+c.  Output WB (Double) Direction as Output</p>
+<p><img alt="alt text" src="../image-9.png" /></p>
+<p>4)  Examine the script tool code and paste the <a href="../Assets/WetBulbTemp.py">provided code</a> in</p>
+<p>5)  Save the toolbox and test the tool in model builder.</p>
+<p>6)  The Relative Humidity and the Temperature in C values created in the last step will be used as an input. And WB will be the generated Wet Bulb number. There is no need to connect the Cell Size and Extent variables.</p>
+<p><img alt="alt text" src="../image-10.png" /></p>
+<h2 id="calculate-the-pet">CALCULATE THE PET:</h2>
+<p>If you have reached this point, you must be very familiar with all the different tools and codes we have used so far. You surely have collected several values in your ModelBuilder. Just to be sure you are in the right path, double check you have obtained the following:</p>
+<ul>
+<li>Bowen Ratio</li>
+<li>Sky View Factor</li>
+<li>Solar Angle</li>
+<li>Wet Bulb</li>
+</ul>
+<p>If you have, then you are ready for the last steps towards building your own PET calculation tool. For this part we will need to add some values directly to the ModelBuilder and use them to calculate directly in the PET equation as follows:</p>
+<h3 id="step-1-add-a-solar-irradiation-value-in-wm2">Step 1. Add a Solar Irradiation value in W/m2:</h3>
+<p>We could easily add this value directly into the equation of the PET analysis but that wouldn’t let us change it if we want to check a different city, day or year. Therefore if we want that value to be editable later on it is better for us to add the value in the following way:</p>
+<p>Go to the “insert” ribbon in the ModelBuilder tab, select the variable button. You will see a small window appear called Variable Data Type, that will let you choose from different preestablished data representations, be sure to look for the “Double” type in the dropdown list and press ok when you are fine with your selection. Be sure to make it a parameter.</p>
+<h3 id="step-2-add-the-default-value-to-solar-irradiation">Step 2. Add the default value to Solar Irradiation:</h3>
+<p>If you want the PET tool to always load the same value as default you can easily stablish this by double clicking the recently added Solar Irradiation variable and typing the Solar Irradiation value that you found when you investigated the warmest day in your study area. Ours was 211.5072. </p>
+<h3 id="step-3-add-the-wind-speed-raster">Step 3. Add the Wind Speed raster:</h3>
+<p>You can drag the Wind Speed raster that we obtained at the beginning of the guide and drop it in the ModelBuilder work area. Be sure to make it a parameter.</p>
+<h3 id="step-4-calculate-the-pet">Step 4. Calculate the PET:</h3>
+<p>Here is where all resultant rasters come together, with this we will Finally calculate our goal values in a raster that we can later use in analyses and understand which changes can affect the most a certain area in the city. In order to achieve this we need to use the Raster Calculator tool: </p>
+<p>1)  In the Model Builder window, locate the Toolbox pane on the left side. Scroll down and find the "Spatial Analyst Tools" toolbox.</p>
+<p>2)  Expand the "Spatial Analyst Tools" toolbox and locate the "Map Algebra" toolset. Within this toolset, you'll find the "Raster Calculator" tool. </p>
+<p>3)  Drag and drop the "Raster Calculator" tool onto the canvas. It will appear as an icon representing the tool. </p>
+<p>4)  Connect Bowen Ratio, Sky View Factor, Solar Angle, Wet Bulb, Solar Irradiation, Wind Speed, the Temperature in C and the extent as inputs in the "Raster Calculator" tool. In this case our output will create a final PET.tif raster and will be the final result in our tool. This should be a parameter too.</p>
+<p>5)  Double-click on the "Raster Calculator" tool to open its parameters. In the expression field, try to replicate the following code with the name of your input files: </p>
+<div class="highlight"><pre><span></span><code>-13.26+(1.25*float(&#39;%Temperature in C%&#39;))+(0.011*float(&#39;%Solar Irradiation in W/m2%&#39;))-(3.37* Ln(&quot;%Wind Speed at 1.2m%&quot;))+(0.078* float(&#39;%WB%&#39;))+(0.0055* float(&#39;%Solar Irradiation in W/m2%&#39;)*Ln(&quot;%Wind Speed at 1.2m%&quot;))+(5.56*Sin(float(&#39;%Solar Angle%&#39;)))-(0.0103*float(&#39;%Solar Irradiation in W/m2%&#39;)*Ln(&quot;%Wind Speed at 1.2m%&quot;)*Sin(float(&#39;%Solar Angle%&#39;)))+(0.0546* &quot;%BowenRatio%&quot;)+(1.94* &quot;%SVF%&quot;)
+</code></pre></div>
+<p>The code calculates a value based on various input variables, remember the PET equation that we showed you at the beginning of the guide? We are replicating that one in this code. If you don’t remember the equation you can always find it in Section 2: Understanding the Science Behind PET It involves multiplication, addition, subtraction, and trigonometric functions. The input variables used in the expression include temperature, solar irradiation, wind speed, WB, solar angle, Bowen ratio, and SVF. Each variable is multiplied by a specific coefficient and combined with other terms to obtain the final result. The expression represents a mathematical model or formula that combines these variables to derive a calculated value.</p>
+<p><strong>Note</strong>: If the name of your files don’t match ours or you are scared of making a typo mistake, don’t worry you can also double click the raster you want to add in the “Rasters” window in the top left part of the Raster Calculator tool.</p>
+<p>6)  Configure any additional parameters, such as the output raster name and the analysis extent should be applied to the tool as we did before.  </p>
+<p>7)  Save your model and test it by pressing “Run” to execute the Raster Calculator tool. It will apply the provided code to perform the specified calculations on the input rasters.</p>
+<h2 id="run-the-pet-model">RUN THE PET MODEL:</h2>
+<p>Now that you have everything set properly you can try running the entire model and check if you have done it correctly, don’t worry if you get an error while trying your code, you can always look back on the guide, check each individual step and check if by any chance you didn’t skip a step or you used a different data type than the one specified in the guide. To do so, you can follow these steps:</p>
+<ol>
+<li>
+<p>Validate your model: Click on the Validate Model button to check if there are any errors or missing connections in your model. Resolve any validation issues before proceeding.</p>
+</li>
+<li>
+<p>Run the model: Once your model is validated, click on the Run Model button to execute it. This will initiate the geoprocessing tasks specified in your model.</p>
+</li>
+<li>
+<p>Monitor the progress: You can monitor the progress of your model execution in the Geoprocessing pane. It will show the status of each tool as it runs, and you can check for any error messages or warnings.</p>
+</li>
+<li>
+<p>Review the results: Once the model completes, you can review the results in the output locations specified in your model. These could be feature classes, raster datasets, or any other outputs generated by the tools in your model.</p>
+</li>
+</ol>
+<p>That's it! By following these steps, you can build and run a your own PET tool made in the  ModelBuilder from ArcGIS Pro to automate your PET analysis workflow!</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../Assignment%20I/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Tutorial 2">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Tutorial 2
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../FINAL%20Assignment/" class="md-footer__link md-footer__link--next" aria-label="Next: Final Assignment">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Final Assignment
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.instant", "navigation.expand", "navigation.path", "navigation.footer", "navigation.tracking"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>

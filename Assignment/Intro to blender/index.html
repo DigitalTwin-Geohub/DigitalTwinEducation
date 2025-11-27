@@ -1,0 +1,1802 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../Modules/Module%20V/">
+      
+      
+        <link rel="next" href="../Assignment%20I/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../images/6Logo Simplified100px.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Tutorial 1 - Digital Twin Education</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#creating-a-3d-building-in-blender" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Digital Twin Education" class="md-header__button md-logo" aria-label="Digital Twin Education" data-md-component="logo">
+      
+  <img src="../../images/6Logo Simplified500px.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Digital Twin Education
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Tutorial 1
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="orange" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="grey" data-md-color-accent="indigowhere-py"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/DigitalTwin-Geohub/DigitalTwinEducation" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Digital Twin Education - University of Twente
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Preparation/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Preparation for Course
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Modules/Module%20I/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Modules
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Tutorials
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../FINAL%20Assignment/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Final Assignment
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../license" class="md-tabs__link">
+          
+  
+  
+    
+  
+  About
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Digital Twin Education" class="md-nav__button md-logo" aria-label="Digital Twin Education" data-md-component="logo">
+      
+  <img src="../../images/6Logo Simplified500px.png" alt="logo">
+
+    </a>
+    Digital Twin Education
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/DigitalTwin-Geohub/DigitalTwinEducation" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Digital Twin Education - University of Twente
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Preparation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Preparation for Course
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modules
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Modules
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modules/Module%20I/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Module I
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modules/Module%20II/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Module II
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modules/Module%20III/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Module III
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modules/Module%20IV/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Module IV
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modules/Module%20V/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Module V
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutorials
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tutorials
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutorial 1
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutorial 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#learning-aim" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Aim
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Objectives
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expected-time-investment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expected Time Investment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#required-material-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Required Material &amp; Data
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deliverablesproducts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deliverables/Products
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assessment-and-feedback" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Assessment and Feedback
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-and-getting-to-know-blender" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installing and Getting to Know Blender
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Installing and Getting to Know Blender">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#blender-default-screen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Blender Default Screen
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#basic-modelling-tools-in-blender" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Basic Modelling Tools in Blender
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Basic Modelling Tools in Blender">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#subdivide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Subdivide
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loop-cuts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Loop Cuts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inset-extrude-and-bevel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inset, Extrude, and Bevel
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Other
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assigning-materials-to-an-object" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Assigning Materials to an Object
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ,
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-creating-a-building-using-basic-modelling-tools-in-blender" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Creating a building using basic modelling tools in Blender
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Assignment%20I/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutorial 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tutorial%203/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tutorial 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../FINAL%20Assignment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Final Assignment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    About
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    License
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#learning-aim" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Aim
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-objectives" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Objectives
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#expected-time-investment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Expected Time Investment
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#required-material-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Required Material &amp; Data
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deliverablesproducts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deliverables/Products
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assessment-and-feedback" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Assessment and Feedback
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-and-getting-to-know-blender" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installing and Getting to Know Blender
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Installing and Getting to Know Blender">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#blender-default-screen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Blender Default Screen
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#basic-modelling-tools-in-blender" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Basic Modelling Tools in Blender
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Basic Modelling Tools in Blender">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#subdivide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Subdivide
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loop-cuts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Loop Cuts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inset-extrude-and-bevel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inset, Extrude, and Bevel
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Other
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assigning-materials-to-an-object" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Assigning Materials to an Object
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ,
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-creating-a-building-using-basic-modelling-tools-in-blender" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Creating a building using basic modelling tools in Blender
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="./" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Tutorials
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<p style="text-align: right" ><img src="../../images/ut-itc-logo-rgb.png" width="300"></p>
+
+<h1 id="creating-a-3d-building-in-blender">Creating a 3D Building in Blender</h1>
+<p><strong>Author</strong>: Dr. Mila Koeva and Guus Verweij<br />
+<strong>Date</strong>: July 2024</p>
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/DigitalTwin-Geohub/DigitalTwinEducation/blob/main/docs/Assignment/Intro%20to%20blender.md">Creating a 3D Building in Blender</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://research.utwente.nl/en/persons/mila-koeva">Dr. Mila Koeva, Associate Professor of Digital Twinning, ITC, University of Twente, with contributions from Guus Verweij</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p>
+
+<h2 id="overview">Overview</h2>
+<h3 id="learning-aim">Learning Aim</h3>
+<p>To use Blender to create a simple 3D building.</p>
+<h3 id="learning-objectives">Learning Objectives</h3>
+<ul>
+<li>Exercise</li>
+</ul>
+<h3 id="expected-time-investment">Expected Time Investment</h3>
+<ul>
+<li>3 hours</li>
+</ul>
+<h3 id="required-material-data">Required Material &amp; Data</h3>
+<ul>
+<li>The final Blender file from the QGIS to Blender tutorial.</li>
+<li>Blender software.</li>
+<li>A mouse.</li>
+</ul>
+<h3 id="deliverablesproducts">Deliverables/Products</h3>
+<ul>
+<li>No formal deliverable required.</li>
+</ul>
+<h3 id="assessment-and-feedback">Assessment and Feedback</h3>
+<ul>
+<li>No formal assessment. You can talk with the teacher for feedback.</li>
+</ul>
+<hr />
+<h2 id="installing-and-getting-to-know-blender">Installing and Getting to Know Blender</h2>
+<p>The building data for the campus is still in three different files and to ease future use, they need to be combined. This will be done in Blender. If you have already done this, you can skip this chapter.</p>
+<ol>
+<li>Go to <a href="https://www.blender.org/download/">Blender Download Page</a> and download and install Blender.</li>
+<li>Start Blender, and in the start-up screen, click “General” under “New File.”</li>
+</ol>
+<p><img alt="Opening Blender" src="./Images/ib-1.png" /></p>
+<ol>
+<li>Now you have entered the default screen, which is explained below:</li>
+</ol>
+<p><img alt="Default screen" src="./Images/ib-2.png" /></p>
+<pre><code>1.  The toolbar, in the upper left part, you can find your save, load, import, export, options and help buttons. In the upper right part, you can choose a screen layout, different pre-sets for different workflows are already there. For this tutorial, we will only use the “Layout” button. 
+2.  The viewport, moving around in this viewport is very similar to other 3D programs. You use the scroll wheel to zoom in and out. Press the middle mouse button and move the mouse to pan the camera around. Shift+ middle mouse button moves the camera. You select an object with the left mouse button, and you open the options menu using the right mouse button (you can swap this around in Edit -&gt; Preferences… -&gt; Keymap).
+3.  Quick tools bar, some often used tools are in this area, like scale, rotate and move.
+4.  Camera controls, if you forgot the camera controls or if you do not have a mouse, you can use these buttons to move around in the viewport. You can do this by click, hold, and drag mouse at the sphere with coordinate symbols.
+5.  The scene collection shows all the objects in the scene, you can also use this to select those objects instead of clicking on them in the viewport.
+6.  Properties bar, here you can select different properties
+7.  The properties that you have selected in 6. will show up here.
+8.  The timeline, often used for animation. But this will not be used in this tutorial.
+</code></pre>
+<ol>
+<li>Practice with moving around in the viewport.</li>
+<li>Delete everyting that is in the current scene, do this by selecting the Camera, Cube and, Light either in the viewport or in the scene collection by holding “ctrl”, and clicking the “del” or “X” button on your keyboard, or by right clicking in the viewport and clicking the “Delete” button.</li>
+</ol>
+<h3 id="blender-default-screen">Blender Default Screen</h3>
+<ul>
+<li><strong>Toolbar</strong>: Upper left part with save, load, import, export, and help options.</li>
+<li><strong>Viewport</strong>: Move around by zooming with the scroll wheel and rotating the camera by pressing the middle mouse button. Shift + middle mouse moves the camera. Select an object with the left mouse button, and open options using the right mouse button.</li>
+<li><strong>Scene Collection</strong>: Shows all the objects in the scene.</li>
+<li><strong>Properties Bar</strong>: Displays properties of selected objects.</li>
+<li><strong>Timeline</strong>: Primarily used for animation, not in this tutorial.</li>
+</ul>
+<p><strong>Practice</strong>: Get familiar with moving around the viewport, delete everything in the scene (Camera, Cube, Light) using the viewport or scene collection.</p>
+<hr />
+<h2 id="basic-modelling-tools-in-blender">Basic Modelling Tools in Blender</h2>
+<p>In this chapter, some basic modelling tools will be explained. These basic tools will later be used to make a building.</p>
+<ol>
+<li>Create a new general blender file and delete the Camera and Light by selecting them either in the viewport or in the Scene Collection and pressing the <code>X</code> or <code>Del</code> button. </li>
+<li>Select multiple objects in the viewport by holding <code>shift</code> and in the Scene Collection by holding <code>ctrl</code>.</li>
+<li>Modelling in Blender is done in the Edit Mode, so select the existing cube and press the <code>Tab</code> button to enter the Edit Mode. Additionally, you can just press the “Modelling” tab in the toolbar.</li>
+</ol>
+<hr />
+<h3 id="subdivide">Subdivide</h3>
+<ol>
+<li>Create a new Blender file, delete the Camera and Light, and select the default cube.</li>
+<li>
+<p>3D models exist out of three things, vertexes, edges, and faces. Vertexes are points, edges connect vertexes and faces connect edges. Each of these can be selected in the edit mode. In the toolbar you can select which you want to enable. Set the select mode to Face. </p>
+<p><img alt="Opening Blender" src="./Images/ib-3.png" /></p>
+</li>
+<li>
+<p>Select any of the faces of the cube, <code>right click</code> and press “Subdivide”. This spits the selected face into 4. You can also use this on an edge to split it in two. </p>
+<p><img alt="Opening Blender2" src="../Images/ib-4.png" /></p>
+</li>
+<li>
+<p>Undo the action by pressing <code>ctrl+Z</code>. So, you once again have the default cube.</p>
+</li>
+<li>
+<p>Selecting multiple objects in blender can be done using <code>shift</code> and <code>ctrl</code>. For <code>shift</code>, it only selects the thing you clicked, when using <code>ctrl</code>, it finds the shortest path between your previous selected part and the part you just clicked on. Set the select mode to edge and select two opposing edges by holding <code>shift</code>.</p>
+</li>
+<li>
+<p>Press subdivide and see that the two selected edges are now split, and the newly created ver-texes are connected, which essentially splits the face in half.</p>
+<p><img alt="" src="../Images/ib-5.png" /> --&gt; Subdivide --&gt; <img alt="" src="../Images/ib-6.png" /></p>
+</li>
+<li>
+<p>When you have pressed the subdivide button, a small bar with “Subdivide” in it pops up, you can expand this box by clicking on it. These are the settings of the subdivide you have just applied, and you can change them here and immediately see the result in the model. The thing you will use the most is the Number of Cuts; this practically decides in how many parts you want to sub-divide the selected object into. You can experiment with the other setting yourself and see the results.</p>
+<p><img alt="" src="../Images/ib-7.png" /></p>
+</li>
+</ol>
+<hr />
+<h3 id="loop-cuts">Loop Cuts</h3>
+<p>Once again, start with the default cube either by undoing or by creating a new one and make sure you are in edit mode.
+1. Select the loop cut tool either by pressing <code>Ctrl+R</code> or by pressing it in the quick toolbar.
+2. If you now hover over the cube, you can see a yellow line indicating where the tool will cut the model. If the yellow line is where you want to add the cut, press the left mouse button to apply the tool.</p>
+<pre><code>![](./Images/ib-8.png)
+</code></pre>
+<ol>
+<li>Once again, in the bottom left, a menu bar pops up which you can expand to change the settings of the tool. For example, the number of cuts can be determined here.</li>
+<li>While this tool might seem similar to the subdivide surface, the difference is that the loop cut creates a closed loop which can be very important for a model’s topology. A model’s topology is important if you want to be able to easily adjust the model later, give materials/textures to the model, and especially when you want to animate a model. Therefore, use the loop cut as often as possible.</li>
+</ol>
+<h3 id="inset-extrude-and-bevel">Inset, Extrude, and Bevel</h3>
+<ol>
+<li>Once again, start with the default cube in edit mode.</li>
+<li>Select a face and press <code>I</code> or the Inset Faces button on the quick toolbar (two spots above the loop cuts button).</li>
+<li>If you have pressed <code>I</code>, move your mouse around and see that you inset the selected face. Left-click in the viewport to confirm the inset. If you have used the Inset Faces button, you have to click and hold the yellow circle and then move around your mouse. Let go of the mouse to confirm your inset.</li>
+<li>
+<p>In the bottom left, you can again expand the settings of the tool. Here you can exactly change, for example, the thickness of the inset.</p>
+<p><img alt="" src="../Images/ib-9.png" /></p>
+</li>
+<li>
+<p>With the inner face of the inset selected, press <code>E</code> or press the Extrude Region button (one spot above the inset button).</p>
+</li>
+<li>When you’ve pressed <code>E</code>, move the mouse around and see that you are extruding the selection. Click when you are happy with your extrusion.</li>
+<li>With the same face selected, press the Bevel button (one spot above the loop cut button) or press <code>Ctrl+B</code>.</li>
+<li>
+<p>The most important settings are the width and segments settings, so experiment with them to see what they do. Do not use too many segments because they add a lot of geometry to the model, which requires more computational power.</p>
+<p><img alt="" src="../Images/ib-10.png" /></p>
+</li>
+<li>
+<p>With the same face selected, press the Bevel button (one spot above the loop cut button) or press ctrl+B.</p>
+</li>
+<li>Using ctrl+B, just click once and open the tool settings tab. For using the Bevel button, press and hold the yellow circle and move it around a bit and stop holding it. This should also open the settings tab.</li>
+<li>The most important settings are the width and segments settings, experiment with them to see what they do. Do not use to many segments, because they add a lot of geometry to the model, which requires more computational power.</li>
+</ol>
+<hr />
+<h3 id="other">Other</h3>
+<ol>
+<li>
+<p>You can move, rotate, and scale vertexes, edges, and faces by using the corresponding buttons in the quick toolbar</p>
+<p><img alt="" src="../Images/ib-11.png" /></p>
+</li>
+<li>
+<p>You can select a loop of vertexes, edges, or faces by holding the alt key when selecting one of those</p>
+</li>
+<li>You can move vertexes, edges, or faces along an(other) face by pressing shift+V and moving your mouse around.</li>
+<li>The spin tool (three spots under the loop cut) can be of great use to make for example roads.</li>
+</ol>
+<h2 id="assigning-materials-to-an-object">Assigning Materials to an Object</h2>
+<p>Now you pose the required basic modelling tools to create a building in Blender. However, before the modelling will start, object materials will be explained. You start this chapter with the default scene, where you can delete the camera and light.
+1.  In the end, you want your building to have different materials, roofs should look different than for example glass or walls. When in edit mode of an object, the last tab in the properties bar is the material properties.</p>
+<pre><code>![](./Images/ib-12.png)
+</code></pre>
+<ol>
+<li>
+<p>There is only one default material that is assigned to all the faces of the object. You can rename it by double clicking the name and you can change the base colour by clicking the correspond-ing bar. By default, you won’t see this colour change, to see it change the viewport shading to material preview. You can do this in the upper right part of the viewport.</p>
+<p><img alt="" src="../Images/ib-13.png" /></p>
+</li>
+<li>
+<p>Now add a new material by pressing + sign in the material properties, then immediately press the + New button that shows up. You delete a material by selecting it and pressing the – button, this can only be done outside of edit mode.</p>
+<p><img alt="" src="../Images/ib-14.png" /></p>
+</li>
+<li>
+<p>Give the new material a colour different from the first material. To do that, make sure you have selected the correct material by simply clicking on it in the list of the material properties tab.</p>
+</li>
+<li>
+<p>Currently all the faces of the cube have the same material assigned, to change this, select a face of the cube, in the material list, click on the material you want to assign to the selection, and press Assign. The assign button assigns the selected material to your selection in the viewport. If you want to select all the faces with a certain material, you can use the Select button next to the Assign button.</p>
+<p><img alt="" src="../Images/ib-15.png" /></p>
+</li>
+<li>
+<p>At the end of your modelling phase, but before exporting, you always have to check if your normals are all facing the correct way. Normals shows the program on which side of the face the material should be, so if you do not have them all facing the same way, some faces will be see-through. To check this, open the overlay settings menu in the upper right part of the viewport and enable the “Face Orientation” checkbox. Tip: in these settings you can also enable edge length and face area settings, this allows you to see the measurements of selected faces and edges.</p>
+<p><img alt="" src="../Images/ib-16.png" /></p>
+</li>
+<li>
+<p>All sides of the cube should now show as the same colour. The sides that are visible from out-side should be blue. In more complex models, that may not always be the case, there are multi-ple ways to fix this. All are accessible in the normal menu, which you can access using alt+N, or in the toolbar using Mesh -&gt; Normals. You should always be in edit mode when changing nor-mals.</p>
+<ul>
+<li>With all faces selected, press “Recalculate Outside”</li>
+<li>With the wrong facing faces selected, press “Flip”</li>
+</ul>
+</li>
+<li>
+<p>Now that all your faces are facing the same way, the object must be setup in a way that complex materials with textures can be put on the model in blender or future programs. This is done in most programs using UV mapping, in simple terms, it is how a flat texture can be applied to a 3d model. You do that by cutting the model in a way that it can be made flat. Then the texture is applied by simply layering it on the flat model and then the model is folded back into its original shape. The UV map is the 2D representation of the model. For a basic cube, the UV map can be seen below. More information about UV unwrapping can be found online for example at: https://docs.blender.org/manual/en/latest/editors/uv/introduction.html </p>
+<p><img alt="" src="../Images/ib-17.png" /></p>
+</li>
+<li>
+<p>Blender has a separate UV Editing tab, so select that in the toolbar, make sure that the object is in edit mode and have all faces selected (use A). The UV map will then show up on the left part of your screen. For a simple cube, blender already has the correct UV map, but if you for exam-ple change the model, using the methods of chapter 3, the UV map will no longer be correct. The dimensions will no longer be correct. You can fix this manually, which is not part of this tutorial, but information can be found at: https://docs.blender.org/manual/en/2.79/editors/uv_image/uv/editing/unwrapping/seams.html. We will let blender to the work, so make sure all faces are selected, and in the toolbar select UV -&gt; Smart UV Project and press Ok. Below, you can see the difference.</p>
+<p><img alt="" src="./Images/ib-18.png" /></p>
+<h2 id="_1"><img alt="" src="../Images/ib-19.png" />, <img alt="" src="../Images/ib-20.png" /></h2>
+<h2 id="5-creating-a-building-using-basic-modelling-tools-in-blender">5.   Creating a building using basic modelling tools in Blender</h2>
+<p>In this chapter, you will use the output blender file from the <a href="../Assignment%20I/#QGIS-to-Blender">QGIS to Blender tutorial</a> and use that founda-tion to create a building. You are expected to use the methods discussed in the previous two tutorials to do this. This chapter will not be a step-by-step tutorial, instead I implore you to be creative and experi-ment with modelling the building. If you are stuck, look at this chapter as a guide and use it as inspira-tion.
+1.  Since the building is now 2D, you first want to add height to the building. So, select the building object, enter edit mode, select all faces, and extrude it up. You can use the extrude settings to precisely decide on the height of a floor since it is easiest to do this for each floor. So, if you want a floor to be 4 meters high, you set the Move Z to (-)4. Extrude it by 4 meters for as many floors as you want. </p>
+<p><img alt="" src="../Images/ib-21.png" /></p>
+</li>
+<li>
+<p>You could also only extrude certain parts of the model to create some parts of the buildings that are higher than others to add some more interesting parts to the building. Since you can only ex-trude complete faces, you might want to add some loop cuts and move them around to create smaller faces to add a floor to. Tip: if you want to see the lengths of the edges enable them in the overlay settings.</p>
+<p><img alt="" src="../Images/ib-22.png" /></p>
+</li>
+<li>
+<p>Since the water must leave the inside, the bottom floor of that level must be deleted. To do that, select the face at the underside of the building, extrude them up by the height of your floors and in the extrude settings, enable “Dissolve Orthogonal Edges” to have Blender automatically delete the “floating” walls. If that doesn’t do the trick, you can manually delete the faces by selecting the bottom edge and deleting it. Don’t forget that you can move the camera to your selection by pressing “.” on the numpad or in the toolbar press View -&gt; Frame Selected.</p>
+<p><img alt="" src="../Images/ib-23.png" /></p>
+</li>
+<li>
+<p>This method can generate some double vertexes; therefore, it is wise to often merge the vertex-es that overlap. This can be done by selecting everything using A, pressing M and select By Dis-tance, this tool merges all vertexes that are within a certain distance. In the settings tab that pops us, make sure that the Merge Distance is not too large since this will merge vertexes that you do not want to merge.</p>
+</li>
+<li>
+<p>Now would be a good time to assign the first materials, to give yourself an easier job, make sure that you colour each material differently</p>
+<p><img alt="" src="../Images/ib-24.png" /></p>
+</li>
+<li>
+<p>Let’s now add windows, you can do this by selecting only the horizontal edges of a side and subdivide it as many times as you like. To make it yourself easier, already apply a new material to your selection. This way you will have a separate material for the frames of the windows. To do this afterwards takes a lot of time. Then inset the new windows, enable the “Individual” setting and assign the selection to a new material for glass. Depth greatly enhances a model, so you can add depth to the model by extruding certain parts, for example, set the glass a bit back. Do this for all sides where you want windows or doors. Try to vary with materials, think about this in advance.</p>
+<p><img alt="" src="../Images/ib-25.png" /></p>
+</li>
+<li>
+<p>Now that the basic building is done, you can add additional details like an entrance etc.</p>
+<p><img alt="" src="../Images/ib-26.png" /></p>
+</li>
+<li>
+<p>When you have finished your building, do not forget to check if all the faces are orientated cor-rectly and use smart UV unwrap to correct the UV’s. Also remove excessive vertexes using merge by distance.</p>
+</li>
+<li>
+<p>Now the building can be exported, you can export to many file types, but the programs you will use the FXB format. Export the building by selecting the object and go to File -&gt; Export -&gt; FBX (.fbx). Check the “Selected Objects” box, under transform set the Forward to X Forward, and the Up to Z Up and hit the Export FBX button.</p>
+<p><img alt="" src="../Images/ib-27.png" /></p>
+</li>
+</ol>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../../Modules/Module%20V/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Module V">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Module V
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../Assignment%20I/" class="md-footer__link md-footer__link--next" aria-label="Next: Tutorial 2">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Tutorial 2
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.instant", "navigation.expand", "navigation.path", "navigation.footer", "navigation.tracking"], "search": "../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
