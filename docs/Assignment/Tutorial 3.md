@@ -106,7 +106,7 @@ A measure of vegetation health derived from satellite data. Healthy vegetation a
 ## Chapter 2
 ### Section 1: Exploring Data Sources
 
-To calculate PET accurately, we need reliable data on temperature, humidity, and land cover. Luckily, there are various sources available that provide such information. According to the proposed method by (Koopmans et al.) the warmest day of the past five years should be considered to gather all the necessary data. 
+To calculate PET accurately, we need reliable data on temperature, humidity, and land cover. Luckily, there are various sources available that provide such information. According to the proposed method by Koopmans et al. the warmest day of the past five years should be considered to gather all the necessary data. 
 
 After doing some research in the area of **Enschede, Netherlands** it was determined that the warmest day was July 27, 2019. Here's an overview of some commonly used data sources:
 ####	1. Meteorological Stations: 
@@ -154,36 +154,17 @@ Now you have your own NDVI for your study area!
 
 #### 4. Trees
 
-a.	In our case, we had access to the tree shapes files from the Municipality of Enschede, this files are a bit more accurate but  not public. You can still find tree shapefiles by visiting https://www.openstreetmap.org/ and clicking the button Export in the top menu.
+a.	In our case, we had access to the tree shapes files from the Municipality of Enschede, this files are a bit more accurate but  not public. You can still find tree shapefiles by downloading OpenStreetMap data. Visit https://overpass-turbo.eu/ and navigate to the city area you are interested in.
+
+b.	Using the query wizard write "natural=tree" to obtain the trees in the city, then run the query and download the result either as a geojson file.
+
+c.	Once you have your file, you can open QGIS and import it as a vector layer. To do this you can simply drag and drop the file into the QGIS interface.
+
+d. The tree layer you downloaded is configured in Geographical coordinate system (EPSG:4326). So we need to change it to the coordinate system of our study area (EPSG:28992).
+
+e.	You can do this by right-clicking on the layer and select "Export" --> "Save feature as", change the CRS to EPSG:28992 and save the layer as a new file. Preferebly save it as a new shapefile.
 
 
-![alt text](Assets/image.png)
-
-b.	Select the desired area to be exported and click the button ‘Export’, if the area is within the allowed size limitations from OpenStreetMap’s you can save the .OSM file in your computer.
-
-c.	This file can be loaded in to a large variety of GIS software including ArcGIS and QGIS, you can load them and do a selection by expression to isolate the trees in a new layer.
-
-d.	ArcGIS Pro does not natively support the .osm file format in the Catalog pane. However, you can use the ArcGIS Editor for OpenStreetMap (OSM) extension to import and work with .osm files in ArcGIS Pro. Here's how you can do it:
-
-*	Install the ArcGIS Editor for OpenStreetMap extension for ArcGIS Pro. You can download it from the Esri website.
-*	Launch ArcGIS Pro and open your project.
-*	Go to the "Insert" tab in the top menu and click on "Add-In" in the "Extensions" group.
-*	Select "ArcGIS Editor for OpenStreetMap" from the list of extensions. This will enable the OpenStreetMap toolbar.
-*	Click on the "Open OpenStreetMap Toolbox" button on the OpenStreetMap toolbar. This will open the OpenStreetMap toolbox.
-*	In the toolbox, expand the "Import" toolset and select the "Load OSM File" tool.
-*	Specify the .osm file you want to load and choose the output feature dataset or geodatabase where you want to store the imported data.
-*	Configure any additional options, such as coordinate system and tag filtering, as needed.
-*	Click "Run" to import the .osm file into ArcGIS Pro using the Editor for OpenStreetMap extension.
-e.	Once the .osm file is imported, you can proceed with selecting the tree points and saving them in a new layer:
-*	In the Contents pane, right-click on the imported .osm layer and select "Attribute Table" to open the attribute table.
-
-f.	In the attribute table, identify the field that represents the tree points. It may be labeled as "leaf_type"=>"broadleaved","natural"=>"tree".
-*	Use the "Select by Attributes" tool in the Selection group on the Map tab to select the tree points based on their attributes or spatial relationship.
-*	Once the tree points are selected, right-click on the layer in the Contents pane and choose "Data" > "Export Features." This will open the "Export Features" geoprocessing tool.
-*	Specify the output location and name for the new layer that will contain only the selected tree points.
-*	Click "Run" to save the selected tree points as a new layer.
-
-**g.	Alternatively you can also use QGIS to separate the tree points from the .OSM into a new point shapefile without the need of an external plugin.**
 
 #### 5. Water Bodies
 For this you can use an [overpass-turbo code](Assets/WaterBodies.sql) to obtain the Water Bodies OSM polygon shapefile inside the city of Enschede. 
@@ -218,7 +199,7 @@ d.	Follow the prompts to import the GeoJSON file into ArcGIS Pro.
 
 a.	Through the National Provision for Key Register Addresses and Buildings. You can obtain the building footprints for all of The Netherlands. The BAG 2.0 Extract contains the Basisregistratie Adressen en Gebouwen (BAG) data that is available free of charge. On the 8th day of every month, a new Extract with the current data is created
 
-b.	You can download the files from the open website https://www.kadaster.nl/-/kosteloze-download-bag-2.0-extract  these are way easier to download. 
+b.	You can download the files from the open website https://www.kadaster.nl/-/gratis-download-bag-extract these are way easier to download. 
 
 #### 7. Digital Surface Model (DSM)
 
