@@ -2,7 +2,7 @@
 
 # Week 6 and 7: Decision analysis
 
-## Mandatory Readings 
+## Mandatory Readings (nothing goes wrong if you don't read them 🤓)
 
 * Lecture Notes: [Augmented Spatial Planning](https://www.researchgate.net/publication/393061938_Augmented_Spatial_Planning)
 
